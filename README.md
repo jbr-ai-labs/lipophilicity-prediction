@@ -11,15 +11,30 @@
 -->
 
 
+# Lipophilicity Prediction with Multitask Learning and Molecular Substructures Representation
 
+Lipophilicity is one of the factors determining the permeability of the cell membrane to a drug molecule. Hence, accurate lipophilicity prediction is an essential step in the development of new drugs. We introduce a novel approach to encoding additional graph information by extracting molecular substructures. By adding a set of generalized atomic features of these substructures to an established Direct Message Passing Neural Network (D-MPNN) we were able to achieve a new state-of-the-art result at the task of prediction of two main lipophilicity coefficients, namely logP and logD descriptors. We further improve our approach by employing a multitask approach to predict logP and logD values simultaneously. Additionally, we present a study of the model performance on symmetric and asymmetric molecules, that may yield insight for further research.
 
+The figure below shows the overall network architecture of our method named StructGNN.
+
+![product-screenshot](imgs/WorkshopModelBW.png)
+
+The following datasets have been used: 
+
+| Dataset name | Number of Samples | Description | Sources |
+| --- | --- | --- | --- |
+| logp_wo_logp_json_wo_averaging | 13688 | All logP datasets except logp.json | Diverse1KDataset.csv, NCIDataset.csv, ochem_full.csv, physprop.csv |
+| logd_Lip_wo_averaging | 4166 | Merged datasets w/o strange (very soluble) molecules and standardized SMILES. Between duplicated logD for one SMILES the most common value was chosen | Lipophilicity |
+| logp_wo_logp_json_logd_Lip_wo_averaging | 17603 | Merged LogP and LogD datasets, 251 molecules have logP and logD values | logp_wo_logp_json_wo_averaging,<br/>logd_Lip_wo_averaging |
+
+For a detailed description of StructGNN we refer the reader to the paper [link to arxiv will be added].
+
+*Machine Learning for Molecules Workshop @ NeurIPS 2020*
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [About the Project](#about-the-project)
-  * [Structure of repository](#structure-of-repository)
-  * [Data](#data)
+* [Structure of this repository](#structure-of-this-repository)
 * [StructGNN](#structgnn)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
@@ -31,18 +46,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
-
-**Lipophilicity Prediction with Multitask Learning and Molecular Substructures Representation**  
-*Machine Learning for Molecules Workshop @ NeurIPS 2020*
-
-Lipophilicity is one of the factors determining the permeability of the cell membrane to a drug molecule. Hence, accurate lipophilicity prediction is an essential step in the development of new drugs. We introduce a novel approach to encoding additional graph information by extracting molecular substructures. By adding a set of generalized atomic features of these substructures to an established Direct Message Passing Neural Network (D-MPNN) we were able to achieve a new state-of-the-art result at the task of prediction of two main lipophilicity coefficients, namely logP and logD descriptors. We further improve our approach by employing a multitask approach to predict logP and logD values simultaneously. Additionally, we present a study of the model performance on symmetric and asymmetric molecules, that may yield insight for further research.
-
-The figure below shows the overall network architecture of our method named StructGNN.
-
-![product-screenshot](imgs/WorkshopModelBW.png)
-
-### Structure of this repository
+## Structure of this repository
 
 There are 3 main folders:
 
@@ -55,21 +59,6 @@ This repository was built with the help of
 * [OTGNN original repo](https://github.com/benatorc/OTGNN)
 * [Junction Tree original repo](https://github.com/benatorc/OTGNN)
 * [DMPNN original repo](https://github.com/chemprop/chemprop)
-
-### Data
-
-To train models one needs to provide dataset in `.csv` format with molecule in SMILES notation and appropriate target value. In the work the following datasets have been used: 
-
-| Dataset name | Number of Samples | Description | Sources |
-| --- | --- | --- | --- |
-| logp_wo_logp_json_wo_averaging | 13688 | All logP datasets except logp.json | Diverse1KDataset.csv, NCIDataset.csv, ochem_full.csv, physprop.csv |
-| logd_Lip_wo_averaging | 4166 | Merged datasets w/o strange (very soluble) molecules and standardized SMILES. Between duplicated logD for one SMILES the most common value was chosen | Lipophilicity |
-| logp_wo_logp_json_logd_Lip_wo_averaging | 17603 | Merged LogP and LogD datasets, 251 molecules have logP and logD values | logp_wo_logp_json_wo_averaging,<br/>logd_Lip_wo_averaging |
-
-Data files are stored [here](data/3_final_data/).
-
-
-
 
 <!-- GETTING STARTED -->
 ## StructGNN
