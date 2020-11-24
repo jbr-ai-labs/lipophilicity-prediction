@@ -21,7 +21,7 @@
   * [Structure of repository](#structure-of-repository)
   * [Built With](#built-with)
   * [Data](#data)
-* [StructGNN](#StructGNN)
+* [StructGNN](#structgnn)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
   * [Training](#training)
@@ -34,7 +34,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![product-screenshot](https://github.com/jbr-ai-labs/lipophilicity-prediction/blob/SOTA/imgs/WorkshopModelBW.png)
+![product-screenshot](imgs/WorkshopModelBW.png)
 
 Code for "Lipophilicity Prediction with Multitask Learning and Molecular Substructures Representation" paper. 
 
@@ -42,9 +42,9 @@ Machine Learning for Molecules Workshop @ NeurIPS 2020
 
 ### Structure of repository
 
-1. [Jupyter Notebooks with EDA, data preprocessing, predictions analysis](https://github.com/jbr-ai-labs/lipophilicity-prediction/tree/SOTA/notebooks)
-2. [Data files](https://github.com/jbr-ai-labs/lipophilicity-prediction/tree/SOTA/data)
-3. [Scripts for models training](https://github.com/jbr-ai-labs/lipophilicity-prediction/tree/SOTA/scripts)
+1. [Jupyter Notebooks with EDA, data preprocessing, predictions analysis](notebooks/)
+2. [Data files](data/)
+3. [Scripts for models training](scripts/SOTA)
 
 ### Built With
 
@@ -62,7 +62,7 @@ To train models one needs to provide dataset in `.csv` format with molecule in S
 | logd_Lip_wo_averaging | 4166 | Merged datasets w/o strange (very soluble) molecules and standardized SMILES. Between duplicated logD for one SMILES the most common value was chosen | Lipophilicity |
 | logp_wo_logp_json_logd_Lip_wo_averaging | 17603 | Merged LogP and LogD datasets, 251 molecules have logP and logD values | logp_wo_logp_json_wo_averaging,<br/>logd_Lip_wo_averaging |
 
-Data files are stored [here](https://github.com/jbr-ai-labs/lipophilicity-prediction/tree/SOTA/data/3_final_data).
+Data files are stored [here](data/3_final_data/).
 
 
 
@@ -122,7 +122,7 @@ The first step is common for both runs.
   substructures_hidden_size: 300
   hidden_size: 800
   ```
-A full list of available arguments can be found in [dmpnn/chemprop/args.py](https://github.com/jbr-ai-labs/lipophilicity-prediction/blob/SOTA/scripts/SOTA/dmpnn/chemprop/args.py)
+A full list of available arguments can be found in [dmpnn/chemprop/args.py](scripts/SOTA/dmpnn/chemprop/args.py)
 
 #### Manual run
 
@@ -172,7 +172,7 @@ conda install -c conda-forge tensorboardx
 
 #### Data
 
-Prepara data and splits with [notebooks/models_postprocessing/otgnn/1_data_preparation.ipynb notebook](https://github.com/jbr-ai-labs/lipophilicity-prediction/blob/SOTA/notebooks/models_postprocessing/otgnn/1_data_preparation.ipynb)
+Prepara data and splits with [1_data_preparation.ipynb notebook](notebooks/models_postprocessing/otgnn/1_data_preparation.ipynb)
 
 #### Training
 
@@ -210,7 +210,7 @@ Download pickle-file [SMILES_TO_MOLTREE.pickle](https://drive.google.com/file/d/
 
 NB!
 
-JTree Vocabulary can lead to exceptions in case of unknown substructures. To skip such molecules run [notebooks/models_postprocessing/jtree/2_encode_molecules.ipynb](https://github.com/jbr-ai-labs/lipophilicity-prediction/blob/SOTA/notebooks/models_postprocessing/jtree/2_encode_molecules.ipynb) with appropriate data. It will save nesessary files in ```data/raw/baselines/jtree/train_errs.txt(val_errs.txt, test_errs.txt)```. 
+JTree Vocabulary can lead to exceptions in case of unknown substructures. To skip such molecules run [2_encode_molecules.ipynb](notebooks/models_postprocessing/jtree/2_encode_molecules.ipynb) with appropriate data. It will save nesessary files in ```data/raw/baselines/jtree/train_errs.txt(val_errs.txt, test_errs.txt)```. 
  
 
 #### Training
@@ -221,4 +221,4 @@ Running with best parameters:
 
 ### Morgan Fingerprints
 
-[Jupyter Notebooks with model and analysis of predictions](https://github.com/jbr-ai-labs/lipophilicity-prediction/tree/SOTA/notebooks/baselines/count_morgan_fingerprint)
+[Jupyter Notebooks with model and analysis of predictions](notebooks/models_postprocessing/count_morgan_fingerprint)
