@@ -19,7 +19,6 @@
 
 * [About the Project](#about-the-project)
   * [Structure of repository](#structure-of-repository)
-  * [Built With](#built-with)
   * [Data](#data)
 * [StructGNN](#structgnn)
   * [Prerequisites](#prerequisites)
@@ -34,19 +33,24 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+**Lipophilicity Prediction with Multitask Learning and Molecular Substructures Representation**  
+*Machine Learning for Molecules Workshop @ NeurIPS 2020*
+
+Lipophilicity is one of the factors determining the permeability of the cell membrane to a drug molecule. Hence, accurate lipophilicity prediction is an essential step in the development of new drugs. We introduce a novel approach to encoding additional graph information by extracting molecular substructures. By adding a set of generalized atomic features of these substructures to an established Direct Message Passing Neural Network (D-MPNN) we were able to achieve a new state-of-the-art result at the task of prediction of two main lipophilicity coefficients, namely logP and logD descriptors. We further improve our approach by employing a multitask approach to predict logP and logD values simultaneously. Additionally, we present a study of the model performance on symmetric and asymmetric molecules, that may yield insight for further research.
+
+The figure below shows the overall network architecture of our method named StructGNN.
+
 ![product-screenshot](imgs/WorkshopModelBW.png)
 
-Code for "Lipophilicity Prediction with Multitask Learning and Molecular Substructures Representation" paper. 
+### Structure of this repository
 
-Machine Learning for Molecules Workshop @ NeurIPS 2020
-
-### Structure of repository
+There are 3 main folders:
 
 1. [Jupyter Notebooks with EDA, data preprocessing, predictions analysis](notebooks/)
 2. [Data files](data/)
 3. [Scripts for models training](scripts/SOTA)
 
-### Built With
+This repository was built with the help of
 
 * [OTGNN original repo](https://github.com/benatorc/OTGNN)
 * [Junction Tree original repo](https://github.com/benatorc/OTGNN)
