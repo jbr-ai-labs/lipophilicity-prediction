@@ -1,6 +1,6 @@
 # Datasets
 
-Final datasets are stored [here](https://github.com/jbr-ai-labs/lipophilicity-prediction/tree/SOTA/data/3_final_data).
+Final datasets are stored [here](3_final_data/).
 
 | Dataset name | Number of Samples | Description | Sources |
 | --- | --- | --- | --- |
