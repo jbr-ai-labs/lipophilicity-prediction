@@ -1,2 +1,224 @@
-# lipophilicity-prediction
-Code for "Lipophilicity Prediction with Multitask Learning and Molecular Substructures Representation" paper. Machine Learning for Molecules Workshop @ NeurIPS 2020
+<!--
+*** Thanks for checking out this README Template. If you have a suggestion that would
+*** make this better, please fork the repo and create a pull request or simply open
+*** an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+***
+***
+***
+*** To avoid retyping too much info. Do a search and replace for the following:
+*** github_username, repo_name, twitter_handle, email
+-->
+
+
+
+
+
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [About the Project](#about-the-project)
+  * [Structure of repository](#structure-of-repository)
+  * [Built With](#built-with)
+  * [Data](#data)
+* [StructGNN](#StructGNN)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+  * [Training](#training)
+* [Baselines](#baselines)
+  * [DMPNN](#dmpnn)
+  * [OTGNN](#otgnn)
+  * [JtVAE](#jtvae)
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+![product-screenshot](https://github.com/jbr-ai-labs/lipophilicity-prediction/blob/SOTA/imgs/WorkshopModelBW.png)
+
+Code for "Lipophilicity Prediction with Multitask Learning and Molecular Substructures Representation" paper. 
+
+Machine Learning for Molecules Workshop @ NeurIPS 2020
+
+### Structure of repository
+
+1. [Jupyter Notebooks with EDA, data preprocessing, predictions analysis](https://github.com/jbr-ai-labs/lipophilicity-prediction/tree/SOTA/notebooks)
+2. [Data files](https://github.com/jbr-ai-labs/lipophilicity-prediction/tree/SOTA/data)
+3. [Scripts for models training](https://github.com/jbr-ai-labs/lipophilicity-prediction/tree/SOTA/scripts)
+
+### Built With
+
+* [OTGNN original repo](https://github.com/benatorc/OTGNN)
+* [Junction Tree original repo](https://github.com/benatorc/OTGNN)
+* [DMPNN original repo](https://github.com/chemprop/chemprop)
+
+### Data
+
+To train models one needs to provide dataset in `.csv` format with molecule in SMILES notation and appropriate target value. In the work the following datasets have been used: 
+
+| Dataset name | Number of Samples | Description | Sources |
+| --- | --- | --- | --- |
+| logp_wo_logp_json_wo_averaging | 13688 | All logP datasets except logp.json | Diverse1KDataset.csv, NCIDataset.csv, ochem_full.csv, physprop.csv |
+| logd_Lip_wo_averaging | 4166 | Merged datasets w/o strange (very soluble) molecules and standardized SMILES. Between duplicated logD for one SMILES the most common value was chosen | Lipophilicity |
+| logp_wo_logp_json_logd_Lip_wo_averaging | 17603 | Merged LogP and LogD datasets, 251 molecules have logP and logD values | logp_wo_logp_json_wo_averaging,<br/>logd_Lip_wo_averaging |
+
+Data files are stored [here](https://github.com/jbr-ai-labs/lipophilicity-prediction/tree/SOTA/data/3_final_data).
+
+
+
+
+<!-- GETTING STARTED -->
+## StructGNN
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+To use `chemprop` with GPUs, you will need:
+ * cuda >= 8.0
+ * cuDNN
+
+
+### Installation
+
+1. `git clone https://github.com/jbr-ai-labs/lipophilicity-prediction.git`
+2. `cd scripts/SOTA/dmpnn`
+3. `conda env create -f environment.yml`
+4. `conda activate chemprop`
+5. `pip install -e .`
+
+
+<!-- USAGE EXAMPLES -->
+### Training
+
+To train the model you can either use existing DVC pipeline or run training manually.
+
+The first step is common for both runs.
+1. Set `params.yaml`
+
+  ```
+  additional_encoder: True #set StructGNN architecture
+  
+  file_prefix: <name of dataset without format and train/test/val prefix>
+  split_file_prefix: <name of dataset without format and train/test/val prefix for `train_val_data_preparation.py` script>
+  input_path: <path to split dataset>
+  data_path: <path to train_val dataset>
+  separate_test_path: <path to test dataset>
+  save_dir: <path to experiments logs>
+ 
+ 
+  epochs: <number of training epochs>
+  patience: <early stopping patience>
+  delta: <early stopping delta>
+ 
+  features_generator: [rdkit_wo_fragments_and_counts]
+  no_features_scaling: True
+  
+  target_columns: <name of target column>
+ 
+  split_type: k-fold
+  num_folds: <number of folds>
+ 
+  substructures_hidden_size: 300
+  hidden_size: 800
+  ```
+A full list of available arguments can be found in [dmpnn/chemprop/args.py](https://github.com/jbr-ai-labs/lipophilicity-prediction/blob/SOTA/scripts/SOTA/dmpnn/chemprop/args.py)
+
+#### Manual run
+
+2. Run `python ./scripts/SOTA/dmpnn/train_val_data_preparation.py` - to create dataset for cross-validation procedure
+3. Run `python ./scripts/SOTA/dmpnn/train.py --dataset_type regression --config_path_yaml ./params.yaml` - to train model
+
+#### DVC run
+
+2. Run `dvc repro` command
+
+## Baselines
+
+### DMPNN
+
+Article - [Analyzing Learned Molecular Representations for Property Prediction](https://arxiv.org/pdf/1904.01561v5.pdf)
+
+Original Github Repo - https://github.com/chemprop/chemprop
+
+#### Requirements
+
+All the requirements are the same as for StructGNN
+
+#### Training
+
+The training procedure is the same as [StructGNN](#StructGNN), but set `additional_encoder: False` in `params.yaml`
+
+### OTGNN
+
+Article - [Optimal Transport Graph Neural Networks](https://arxiv.org/pdf/2006.04804v2.pdf)
+
+Original Github Repo - https://github.com/benatorc/OTGNN
+
+#### Requirements
+
+``` 
+conda create -n mol_ot python=3.6.8
+sudo apt-get install libxrender1
+
+conda install pytorch torchvision -c pytorch
+conda install -c rdkit rdkit
+conda install -c conda-forge pot
+conda install -c anaconda scikit-learn
+conda install -c conda-forge matplotlib
+conda install -c conda-forge tqdm
+conda install -c conda-forge tensorboardx
+```
+
+#### Data
+
+Prepara data and splits with [notebooks/models_postprocessing/otgnn/1_data_preparation.ipynb notebook](https://github.com/jbr-ai-labs/lipophilicity-prediction/blob/SOTA/notebooks/models_postprocessing/otgnn/1_data_preparation.ipynb)
+
+#### Training
+
+Running cross-validation:
+
+```cd ./scripts/SOTA/otgnn/; python train_proto.py -data logp_wo_json -output_dir output/exp_200 -lr 5e-4 -n_splits 5 -n_epochs 100 -n_hidden 50 -n_ffn_hidden 100 -batch_size 16 -n_pc 20 -pc_size 10 -pc_hidden 5 -distance_metric wasserstein -separate_lr -lr_pc 5e-3 -opt_method emd -mult_num_atoms -nce_coef 0.01```
+
+### JtVAE
+
+Article - [Junction Tree Variational Autoencoder for Molecular Graph Generation](https://arxiv.org/pdf/1802.04364%5D)
+
+Original Github Repo - https://github.com/wengong-jin/icml18-jtnn
+
+#### Requirements
+
+``` 
+conda create -n jtree python=2.7
+
+conda install pytorch torchvision -c pytorch
+conda install -c rdkit rdkit
+conda install -c anaconda scikit-learn
+conda install -c conda-forge matplotlib
+conda install -c conda-forge tqdm
+conda install -c conda-forge tensorboardx
+```
+
+
+Original article proposed to train autoencoder architecture for reconstruction task, here we use only encoder part in regression task.
+
+#### Data
+
+To run with prepared data:
+
+Download pickle-file [SMILES_TO_MOLTREE.pickle](https://drive.google.com/file/d/15e8Tq0xKwIVUpizKmn-o3xznq0iBunvp/view?usp=sharing) from gdrive and place it to `data/raw/baselines/jtree/` directory.
+
+NB!
+
+JTree Vocabulary can lead to exceptions in case of unknown substructures. To skip such molecules run [notebooks/models_postprocessing/jtree/2_encode_molecules.ipynb](https://github.com/jbr-ai-labs/lipophilicity-prediction/blob/SOTA/notebooks/models_postprocessing/jtree/2_encode_molecules.ipynb) with appropriate data. It will save nesessary files in ```data/raw/baselines/jtree/train_errs.txt(val_errs.txt, test_errs.txt)```. 
+ 
+
+#### Training
+
+Running with best parameters:
+
+```cd ./scripts/SOTA/jtree/; python train_encoder_more_atom_feats_CV.py --filename "exp" --epochs 200 --patience 35 --vocab_path '../../../data/raw/baselines/jtree/vocab.txt' --file_prefix logp_wo_logp_json_wo_averaging```
+
+### Morgan Fingerprints
+
+[Jupyter Notebooks with model and analysis of predictions](https://github.com/jbr-ai-labs/lipophilicity-prediction/tree/SOTA/notebooks/baselines/count_morgan_fingerprint)

@@ -1,0 +1,13 @@
+{
+  "logd_lipophilicity_dataset.csv": [
+    []
+  ],
+  "logd_logd74_dataset.csv": [
+    []
+  ],
+  "logd_ochem_dataset.csv": [
+    [
+      "CCCCCCCCCCCCCC(=O)[Cl]NC(CC1=CNC2=CC=CC=C12)C(=O)NC(CC(C)C)C(O)=O"
+    ]
+  ]
+}

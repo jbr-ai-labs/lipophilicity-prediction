@@ -1,0 +1,16 @@
+,Unnamed: 0,smiles,logP,logD
+0,45,Brc1ccoc1,2.18,
+1,88,C#CCCC,1.98,
+2,2,BrC1CC2CCC1C2,3.54,
+3,43,Brc1cccs1,2.75,
+4,33,Brc1cccc(-c2ccccc2)c1,4.85,
+5,31,Brc1cccc(-c2c[nH]c(SCCc3c[nH]cn3)n2)c1,3.76,
+6,84,C#CCC(O)(c1cccnc1)c1ccc(Cl)cc1Cl,2.29,
+7,64,C#CC1(O)C(F)CC2C3CCc4cc(O)ccc4C3CCC21C,3.3,
+8,44,Brc1ccncc1,1.54,
+9,42,Brc1cccnc1,1.6,
+10,9,BrCCCc1ccccc1,3.72,
+11,90,C#CCCC(C)=O,0.58,
+12,89,C#CCCC(=O)N(C)c1ccc(S(=O)(=O)N(C)C)cc1,0.88,
+13,22,Brc1ccc(-c2cc3ccccn3c2)cc1,5.43,
+14,95,C#CCN(C)C(C)Cc1ccccc1,2.9,2.16

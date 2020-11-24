@@ -1,0 +1,40 @@
+Fold 0
+Fold 0
+Fold 0
+Model 0 best validation rmse = 0.443057 on epoch 84
+Model 0 test rmse logP = 0.446834
+Model 0 test R2 logP = 0.940711
+Ensemble test rmse  logP= 0.446834
+Ensemble test R2  logP= 0.940711
+Fold 1
+Model 0 best validation rmse = 0.451234 on epoch 84
+Model 0 test rmse logP = 0.457236
+Model 0 test R2 logP = 0.937918
+Ensemble test rmse  logP= 0.457236
+Ensemble test R2  logP= 0.937918
+Fold 2
+Model 0 best validation rmse = 0.444644 on epoch 72
+Model 0 test rmse logP = 0.456233
+Model 0 test R2 logP = 0.938190
+Ensemble test rmse  logP= 0.456233
+Ensemble test R2  logP= 0.938190
+Fold 3
+Model 0 best validation rmse = 0.427254 on epoch 42
+Model 0 test rmse logP = 0.449578
+Model 0 test R2 logP = 0.939981
+Ensemble test rmse  logP= 0.449578
+Ensemble test R2  logP= 0.939981
+4-fold cross validation
+	Seed 0 ==> test rmse = 0.446834
+	Seed 0 ==> test R2 = 0.940711
+	Seed 1 ==> test rmse = 0.457236
+	Seed 1 ==> test R2 = 0.937918
+	Seed 2 ==> test rmse = 0.456233
+	Seed 2 ==> test R2 = 0.938190
+	Seed 3 ==> test rmse = 0.449578
+	Seed 3 ==> test R2 = 0.939981
+Overall val rmse logP= 0.441547 +/- 0.008803
+Overall val R2 logP = 0.944314 +/- 0.002105
+Overall test rmse logP = 0.452470 +/- 0.004387
+Overall test R2 logP = 0.939200 +/- 0.001178
+Elapsed time = 6:39:21

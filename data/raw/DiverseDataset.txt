@@ -1,0 +1,760 @@
+ID ZINC(2010) Status Supplier SMILES logPexp pHofanalysis
+1 ZINC00036522 Validated Specs Cc1cc2c(cc1C)NC(=O)C[C@H]2c3ccccc3OC 4.17 5
+3 ZINC00185379 Validated ChemBridge COc1ccc2c(c1)O[C@@](CC2=O)(C(F)(F)F)O 2.79 5
+4 ZINC12402487 Validated ChemBridge CC1(O[C@H]([C@H](O1)C(=O)N)C(=O)N)C(C)(C)C 1.60 6.5
+5 ZINC00055459 Validated Specs CCOc1cc(cc(c1OCC)OCC)c2nnc(o2)c3ccco3 3.96 10.5
+6 ZINC00056871 Validated Enamine CN(C)c1ccc(cc1)C(=C)c2ccc(cc2)N(C)C 5.30 7.3
+7 ZINC00058341 Validated ChemBridge Cc1ccc(o1)[C@H](C#CC(c2ccccc2)(c3ccccc3)O)O 3.53 10.5
+8 ZINC00062144 Validated IBScreen (Edchem) CC(C)(C)c1cc(n[nH]1)Cc2ccccc2 4.35 10.5
+9 ZINC00064607 Eliminated Specs c1cc(ccc1c2ccc(cc2)N3C(=O)CCC3=O)N4C(=O)CCC4=O 5
+10 ZINC00068765 Eliminated Chemical Block C1CC1NC(=O)[C@@H]2CC=CC[C@H]2C(=O)OCC(C(F)F)(F)F 5
+11 ZINC00069488 Validated Maybridge (Chemie Brunschwig) C[C@H]1C[C@@H](CC(C1)(C)C)NC(=S)NCc2csc3c2cccc3 6.21 5
+12 ZINC00072787 Validated ChemBridge CCNc1nc(nc(n1)Oc2ccc(nn2)OCC)NC(C)C 3.14 10.5
+13 ZINC00074829 Validated Enamine c1ccc2c(c1)OCCOCCOCCO2 1.81 5
+15 ZINC00077710 Validated Specs c1ccc2c(c1)c3c(c(=O)o2)[C@H](C(=C(O3)N)C#N)c4cccs4 2.34 10.5
+16 ZINC00081411 Validated Maybridge (Chemie Brunschwig) CCOC(=O)CC1=Nn2c(nnc2SC1)c3cccs3 2.98 10
+17 ZINC00082336 Validated Maybridge (Chemie Brunschwig) c1ccc2c(c1)CC[C@@H](O2)C(=O)Nc3ccc(cc3)C(F)(F)F 4.50 5
+18 ZINC00089307 Validated Maybridge (Chemie Brunschwig) CC(C)(C)C(=O)CSc1nc(cc(n1)OC(=O)N(C)C)COC 3.33 5
+19 ZINC00094399 Validated Chemical Block Cc1cc(ccc1[N+](=O)[O‐])C(=O)NCCc2c([nH]c3c2cccc3)C 4.12 9.2
+20 ZINC01061315 Validated ChemBridge c1cc(c(c(c1)Cl)[C@@H]2CC(=O)Nc3c2cc4c(c3)OCCO4)F 3.96 5
+21 ZINC00096234 Validated Maybridge (Chemie Brunschwig) CSc1c(c(cs1)c2cccs2)C#N 3.69 5
+22 ZINC00139023 Validated ChemBridge c1ccc(c(c1)C(F)(F)F)NC(=O)NC2CCCCC2 4.00 5
+23 ZINC00105203 Validated IBScreen (Edchem) CCn1c2c(nc1NC[C@H](c3ccccc3)O)n(c(=O)n(c2=O)C)C 3.24 6.5
+24 ZINC00106685 Validated Maybridge (Chemie Brunschwig) Cc1c(nc2c(n1)c(nnc2N)N)C 1.14 10.5
+25 ZINC00110879 Validated Chemical Block c1ccc(cc1)N(c2ccccc2)c3nc(nc(n3)N4CCCC4)C#N 5.38 6.5
+26 ZINC00113902 Validated Maybridge (Chemie Brunschwig) c1cc2c(cc1c3csc(n3)CC#N)OCCCO2 2.68 5
+27 ZINC00115984 Validated ChemBridge CC1(O[C@@H]([C@H](O1)C(=O)N(C)C)C(=O)N(C)C)C 1.49 5
+28 ZINC14720659 Validated Aldrich COC(=O)[C@H]1[C@H](OC(O1)c2ccccc2)C(=O)OC 2.49 5
+29 ZINC00121503 Validated ChemBridge CCN(CC)c1ccc(c(c1)OC)C=C2C(=O)c3ccccc3C2=O 5.05 10.5
+30 ZINC00125686 Validated Maybridge (Chemie Brunschwig) CC(C)(C)S(=O)(=O)/C(=C/Nc1ccc(cc1)OC(F)(F)F)/C#N 4.28 6.5
+31 ZINC00127640 Validated Chemical Block CCC[C@@H]1C(=O)C[C@@H](C(C1(C#N)C#N)(C#N)C#N)C(C)C 3.30 5
+32 ZINC00132954 Validated Maybridge (Chemie Brunschwig) Cc1c(cccc1OCc2ccccc2)[N+](=O)[O‐] 4.41 5
+33 ZINC00134565 Eliminated Maybridge (Chemie Brunschwig) C1COC2(O1)[C@@H]3[C@H]4C[C@H]5[C@@H]3C(=O)[C@@H]6[C@H]5[C@H]4[C@H]26 6.5
+34 ZINC00136299 Validated Maybridge (Chemie Brunschwig) CC12CCCC(C1)(CCC2)C(=O)N 2.73 5
+35 ZINC00137750 Validated Maybridge (Chemie Brunschwig) Cc1c(c(c(c(c1C)C)CSc2nnc(n2C)CC#N)C)C 4.14 6.5
+36 ZINC00141449 Validated Chemical Block CCOc1nc(nc(n1)N2CCOCC2)C#N 2.46 5
+37 ZINC00143627 Validated Vitas‐M Cc1cc(c(c(c1)C)[C@H]2[C@@H]3CCCC=C3C(=C(C2(C#N)C#N)N)C#N)C 5.48 5
+38 ZINC00149819 Validated Maybridge (Chemie Brunschwig) C1COC2(O1)[C@@H]3[C@H]4C[C@H]5[C@@H]3C(=O)[C@@H]6[C@H]5[C@H]4[C@H]26 0.51 2
+39 ZINC00155649 Validated Aldrich c1cc(ccc1C(=O)C2CC2)F 2.61 5
+40 ZINC00161457 Validated Specs C[C@]1(OC[C@H](O1)Cn2cncn2)c3ccc(cc3Cl)Cl 3.68 10
+41 ZINC00161621 Validated Maybridge (Chemie Brunschwig) Nc1nc3c(cc2sc(N)nc2n3)s1 1.56 10
+42 ZINC00162659 Validated Maybridge (Chemie Brunschwig) C[C@@]1(CC[C@H](C1(C)C)C(=O)N2CCOCC2)C(=O)N3CCOCC3 2.46 5
+43 ZINC00076749 Validated Enamine Cc1nc(cs1)c2ccc(cc2)Cl 3.65 7.3
+44 ZINC00170706 Validated Maybridge (Chemie Brunschwig) CN(C)/C=C/C(=O)c1ccc(cc1)C#Cc2ccccc2 4.69 10.5
+45 ZINC00171218 Validated Maybridge (Chemie Brunschwig) CCCn1c(=O)c(cn(c1=O)c2ccccc2C)Br 2.82 5
+46 ZINC00190551 Validated IBScreen (Edchem) Cc1cc2c(cc1OCC(=O)OC)occ(c2=O)c3csc(n3)C 3.90 10.5
+47 ZINC00198521 Eliminateda) IBScreen (Edchem) CC(C)(C)c1cc(n[nH]1)c2cc(n[nH]2)C(C)(C)C 6.5
+48 ZINC18324649 Validated Vitas‐M Cc1ccc2c(nc(nc2c1)Nc3[nH]c(=O)c4c(n3)CCCC4)C 3.92 10
+49 ZINC01779942 Validated ChemBridge CCCCOc1ccc(cc1)/C=C/C(=O)NC(C)C 4.45 5
+50 ZINC00218005 Validated ChemDiv CCN(CC)S(=O)(=O)N1CCC[C@@H](C1)C(=O)NC2CCCCC2 3.58 5
+51 ZINC00238588 Validated Enamine CC(=CCCC1=NN([C@@](C1)(C)CCC=C(C)C)C=O)C 5.02 10.5
+52 ZINC00258632 Validated Enamine O=S(NC(C)c1ccccc1)(C)=O 1.80 5
+53 ZINC00263595 Validated IBScreen (Edchem) CC[C@@]1(NC(=S)N2N1C(=S)N[C@@]2(C)CC)C 2.44 5
+54 ZINC00264105 Validated IBScreen (Edchem) CCCc1c2c(n[nH]1)OC(=C([C@H]2c3ccsc3C)C#N)N 3.83 10.5
+56 ZINC04638866 Replacedd) Specs N1C(=CC(=O)C(C)(C)C)C(=CC(=O)C(C)(C)C)Nc2c1cccc2 5
+56 ZINC00282116 Validated ChemBridge CC(C)(C)C(=O)Nc1ccc(cc1)NC(=O)C(C)(C)C 2.79 5
+57 ZINC00242887 Validated ChemBridge COC(=O)N[C@@H](C(=O)c1ccccc1)O 1.41 5
+58 ZINC00322785 Validated IBScreen (Edchem) COc1ccc(cc1OC)c2nnc(s2)N 2.34 6.5
+59 ZINC00128400 Validated Vitas‐M c1cc2c(cc1c3csc(n3)CC#N)OCCO2 2.92 5
+60 ZINC00333494 Eliminated Specs C(CCl)[C@@H]1C(=O)N[C@@H](C(=O)N1)CCCl 6.5
+61 ZINC00446349 Validated IBScreen (Edchem) c1ccc2c(c1)nc(s2)SCC(=O)c3cccs3 4.04 5
+62 ZINC01233750 Validated IBScreen CC(C)[C@@H]1[C@@H]2CCCC=C2[C@@H]3CCCC[C@@H]3O1 5.87 5
+63 ZINC00058285 Validated Vitas‐M c1ccc(cc1)Nc2ccccc2N 2.67 10
+64 ZINC00344286 Replacedd) Specs O1C(=CC=C1)C(=O)C(C(=CC(=O)C1=CC=CO1)SC)C 5
+64 ZINC00102698 Validated ChemBridge CC(=O)c1cc2ccccc2o1 2.15 5
+65 ZINC00344692 Validated Enamine O=C(N2c3c(S(C(F)(F)F)=O)cccc3)c1ccccc1C2=O 3.30 5
+67 ZINC00346783 Validated Specs CC1(OC(=O)C(=Cc2ccc(s2)[N+](=O)[O‐])C(=O)O1)C 3.04 5
+68 ZINC00350715 Validated Specs CCN(CC)C(=O)[C@]12CC[C@](C1(C)C)(C(=O)O2)C 2.66 5
+69 ZINC00365332 Validated Specs O=C(C)/N=C2/Sc1c(N2N(C(C)=O)C(C)=O)nc(cccc3)c3n1 1.10 10
+70 ZINC00366877 Validated Specs c1ccc2c(c1)nc3n2C=C(NN3)N/N=C/c4ccc(cc4)Cl 4.81 10.5
+71 ZINC00383350 Replacedg) Specs N12C(=O)C3=C(c4cccc(c42)CC1)OC(=O)C=C3OC(=O)C 6.5
+71 ZINC00036407 Validated ChemBridge Cc1c(c(=O)oc2c1ccc(c2C)OC)C 3.45 5
+72 ZINC00118751 Validated Specs Cn1c2ccccc2n3c1c(c4c3nc(c(n4)C#N)C#N)C#N 3.61 5
+73 ZINC03645064 Validated ChemDiv CC(C)OC(=O)c1ccc2c(c1)c3c([nH]2)CCCC3 4.97 5
+75 ZINC00393738 Validated Aldrich COc1ccc(cc1)[C@@H]2CCCC[C@H]2O 2.85 5
+76 ZINC00394004 Eliminatedd) Aldrich CC1=C[C@@](CC(C1)(C)C)([C@@]2(CC(CC(=C2)C)(C)C)O)O 5
+77 ZINC00396628 Validated Aldrich Cc1cccc(c1C)NC(=O)NC(C)C 2.70 5
+78 ZINC00506197 Validated IBScreen (Edchem) C1CC[C@@]2([C@H](C1)CCC(=O)O2)O 1.16 5
+80 ZINC00408299 Replacedg) IBScreen (Edchem) O1C(=O)C=C(c2c(cc(cc21)OC(=O)C)OC(=O)C)CCC 5
+80 ZINC00459287 Validated ChemBridge Cc1cc(=O)oc2c1ccc(c2)OC(C)C 3.33 5
+81 ZINC00476297 Validated ChemBridge Cc1cc(ccc1O[C@@H](C)C(=O)NC2CCCCCC2)Cl 5.45 5
+83 ZINC00617161 Validated ChemBridge c1cnc(nc1)SCc2ccc(c(c2)Cl)Cl 4.33 5
+84 ZINC00331935 Validated Enamine C[C@@]1(CC(O[P@]1(=O)C)(C)C)O 0.71 5
+85 ZINC00500671 Eliminatedb)c) IBScreen COC(=O)/C=C/c1ccc(c(c1)OC(=O)OC)OC(=O)OC 5
+86 ZINC00493350 Validated Enamine‐REAL CC(C)(C)NC(=S)Nc1ccc(cc1)F 2.71 5
+87 ZINC00518336 Replacedg) IBScreen (Edchem) O1C[C@@]2(C(C=C(CC2C)C)C)CO[C@@H]1C(C)C 5
+87 ZINC03881371 Validated Vitas‐M CC1CC(C)=CC(C)C(CO)1CO 2.93 5
+89 ZINC00522903 Validated IBScreen (Edchem) CC1(CC2=C(C(=O)C1)C3(CCC4(CC3)OCCO4)C(=C(O2)N)C#N)C 3.24 10
+90 ZINC00529503 Validated IBScreen (Edchem) CCn1c(=O)c2c(c(sc2nc1SCc3ccccc3F)C)C 5.86 10.5
+91 ZINC00535984 Validated IBScreen (Edchem) Cc1cc(n(n1)CCOC(=O)[C@H]2[C@@H](C2(C)C)C=C(Cl)Cl)C 4.76 10.5
+92 ZINC00543048 Eliminated IBScreen (Edchem) Cc1cc2c3c(n(c(c3c(nn2c1)C)C)C4CCCCC4)C 10
+93 ZINC00549477 Validated Specs c1cc(sc1)C2=NN=C3[C@H]2[C@@H](C(=C(O3)N)C#N)C4CCCCC4 4.64 10.5
+94 ZINC00551538 Validated IBScreen (Edchem) CC1CN(C3=C(/C=C(C#N)/C#N)C(N2C=CC=CC2=N3)=O)CC(C)O1 3.24 10
+95 ZINC00560825 Validated Ambinter CCn1c(nnc1SCC(=O)NC(C)(C)C)C2CCCCC2 3.20 10
+96 ZINC00375384 Validated ChemBridge COc1ccc(cc1)CNC(=O)C2CCCC2 2.60 5
+98 ZINC00614168 Validated ChemBridge CC(C)(C)c1ccccc1NC(=O)c2cc(c(c(c2)OC)OC)OC 3.61 5
+99 ZINC00620045 Validated ChemBridge c1ccc(cc1)CS(=O)(=O)CC(=O)Nc2ccc3c(c2)OCCO3 3.19 5
+100 ZINC00620166 Validated ChemBridge CCCC(=O)N1CC2(CC(C1)(CN(C2)C(=O)CCC)C)C 2.69 5
+102 ZINC00622415 Validated Specs COc1cc(cc(c1)C(=O)c2ccc(cc2)F)C(=O)c3ccc(cc3)F 4.89 5
+104 ZINC00624202 Validated Enamine Cc1ccnc(c1)N(C(=O)c2cc3c(s2)CCCC3)C(=O)c4cc5c(s4)CCCC5 5.76 7.3
+105 ZINC00454920 Validated ChemBridge CCc1cc(=O)oc2c1ccc(c2C)OCC(=O)OC(C)(C)C 4.52 5
+106 ZINC00628553 Validated Specs CCN1c2ccc(c3c2c(ccc3)C1=O)S(=O)(=O)N(c4ccc(cc4)OC)C(=O)c5cccnc5 4.74 7.3
+107 ZINC00790489 Validated ChemBridge CCc1ccc(cc1)n2c(nnn2)SCC(=O)Nc3ccc(cc3)C(=O)C 4.69 5
+108 ZINC00630275 Validated ChemBridge (Depleted) CC(C)(C)OC(=O)N1CCC[C@H]1C(=O)Oc2ccc3c(c2)occ(c3=O)c4ccc(cc4)F 5.77 5
+109 ZINC00630883 Validated Specs Cc1cc2c(cc1C)NC3=C([C@@H](N2)c4cc5c(cc4Cl)OCO5)C(=O)CC(C3)(C)C 4.38 6.5
+110 ZINC00634239 Validated Specs CCOC(=O)C1=NN[C@@]2([C@@H]1C(=O)N(C2=O)c3cccc(c3)C(F)(F)F)c4cccc(c4)[N+](=O)[O‐] 4.73 10
+111 ZINC18068175 Validated ChemBridge CCOC(=O)c1c(c(sc1N2C(=O)[C@@H]3CC(=C(C[C@H]3C2=O)C)C)C)C 4.56 5
+112 ZINC02695638 Validated Vitas‐M CCN1c2ccc(cc2/C(=C/3\C(=O)N(C(=S)S3)Cc4ccc(cc4)OC)/C1=O)Br 6.96 5
+114 ZINC00645444 Validated Specs CCOc1cc(cc(c1OCC)OCC)C(=O)Oc2ccc3c(cc(=O)oc3c2)C 6.15 5
+115 ZINC00646685 Validated ChemBridge CCOC(=O)N1CCN(CC1)c2c3cc(cc(c3nc(n2)C(F)(F)F)C)C 5.92 10.5
+116 ZINC00647320 Validated ChemBridge Cc1c(cnn1C)CN(C)C(=O)c2cnn3c2N[C@H](C[C@@H]3C(F)(F)F)c4ccc(c(c4)OC)OC 4.25 7.3
+117 ZINC00647734 Validated Vitas‐M Cc1ccc(c(c1)C)S(=O)(=O)N2CCCN(CC2)S(=O)(=O)c3ccc(cc3C)C 5.01 5
+119 ZINC00661253 Validated Specs COc1cccc(c1)c2ccc3c(c(sc3n2)C(=O)Nc4ccc(c(c4)F)F)N 5.86 7.3
+120 ZINC00669528 Validated Specs CCN(CC)C(=O)c1c(c(c(s1)NC(=O)[C@@H]2C[C@H]3CC[C@@H]2C3)C(=O)OCC)C 5.05 5
+121 ZINC00673873 Validated Specs c1cc(sc1)[C@@H]2C[C@H](n3c(c(c(n3)C(=O)NCc4ccc(cc4)F)Br)N2)C(F)(F)F 5.54 5
+122 ZINC00674118 Eliminatedd) Specs N1(C(C2=C(CC(C3=CC=CO3)CC2=O)Nc2c1cccc2)c1cc(ccc1)[N+](=O)[O‐])C(=O)c1ccccc1 5
+124 ZINC18276282 Validated Vitas‐M CCOC(=O)c1c(csc1/N=C/c2c(nn(c2O)c3ccccc3)C)CC(C)C 5.16 10
+125 ZINC01092707 Validated Vitas‐M c1ccc(cc1)/C=C/C(=O)Nc2cccc(c2)NC(=O)c3cccc(c3)Cl 5.53 5
+126 ZINC00673948 Validated ChemBridge c1ccc(cc1)[C@@H]2C[C@H](n3c(cc(n3)C(=O)Nc4cccc(c4)Cl)N2)C(F)(F)F 5.92 5
+127 ZINC00681990 Validated Specs Cc1ccc(cc1)N(CCOC(=O)c2ccc(cc2)S(=O)(=O)N3CCCCC3)C4=NS(=O)(=O)c5c4cccc5 5.58 5
+128 ZINC18178970 Validated Ambinter CCOC(=O)CN1C(=O)[C@@H]([C@@H](C1=O)OC(=O)c2ccccc2)OC(=O)c3ccccc3 5.00 5
+131 ZINC00706102 Validated ChemBridge c1ccc(cc1)[C@@H]2CC3=C([C@H](C(=C(O3)N)C#N)c4ccccc4F)C(=O)C2 3.07 10
+132 ZINC13161772 Validated Specs Cc1ccc(cc1)NCc2ccc\3n2CC/C3=C\4/Cn5c(ccc5C4=O)CNc6ccc(cc6)C 6.51 10.5
+133 ZINC00692692 Validated Specs COC(=O)c1cccc(c1)NC(=O)c2cc(cc(c2)N3C(=O)c4ccccc4C3=O)C(=O)Nc5cccc(c5)C(=O)OC 6.09 6.5
+138 ZINC00199168 Validated ChemBridge COc1ccc(cc1)OCC(=O)N2CCN(CC2)C(=O)c3ccco3 2.76 5
+142 ZINC00701894 Validated Specs CC(=O)Oc1cc(cc(c1OC(=O)C)OC(=O)C)C(=O)Nc2ccc(cc2)Oc3ccccc3 2.89 10.5
+143 ZINC00703833 Validated Specs COc1ccc(cc1)Oc2c(=O)c3ccc(cc3oc2C(F)(F)F)OC(=O)N4CCOCC4 4.63 5
+144 ZINC00706600 Validated Specs c1ccc(cc1)Cn2c3ccccc3c4c2nc(nn4)SCC(=O)OCN5C(=O)c6ccccc6C5=O 4.51 6.5
+145 ZINC00708194 Validated ChemBridge c1ccc(cc1)c2nn(c(=S)n2c3ccccc3)[C@@H]4CC(=O)[C@H]5OC[C@@H]4O5 3.65 7.3
+146 ZINC00709053 Validated Vitas‐M Cc1cccc(c1NC(=O)C2(CCCCC2)N(Cc3ccco3)C(=O)c4ccc(cc4)NC(=O)C)C 4.62 5
+147 ZINC00709808 Validated Chemical Block COc1ccccc1N(CCOC(=O)[C@@H]2CC(=O)N(C2)c3ccccc3)C4=NS(=O)(=O)c5c4cccc5 2.50 6.5
+148 ZINC00709971 Validated ChemBridge c1ccc(cc1)c2nnc(n2c3ccccc3)SCC(=O)N4CCN(CC4)C(=O)c5ccccc5 4.64 10.5
+149 ZINC12376491 Validated ChemDiv c1ccc(cc1)CN\2C(=O)C[C@@H](S/C2=N\c3ccc(cc3)F)C(=O)Nc4ccccc4 6.00 7.3
+150 ZINC00716244 Validated Chemical Block CCCS(=O)(=O)c1c2cnccn2c(c1S(=O)(=O)CCC)C(=O)c3ccc(cc3)C 3.93 5
+151 ZINC00718346 Validated ChemBridge c1ccc(c(c1)COc2ccc(cc2)C3C4=C(CCCC4=O)OC5=C3C(=O)CCC5)F 4.92 5
+152 ZINC05130489 Validated Chemical Block CCOc1ccc(c(c1)OCC)C2=NN=C3[C@@H]2[C@@H](C(=C(O3)N)C#N)c4ccco4 4.48 10.5
+153 ZINC00719771 Validated ChemBridge CC1(CC2=C([C@H](C(=C(N2c3c(cccc3F)F)N)C#N)c4cccc(c4)Cl)C(=O)C1)C 5.04 5
+154 ZINC00721075 Validated ChemBridge COc1cc(cc(c1OC)OC)c2cc(n3c(n2)c(cn3)C(=O)OC)C(F)(F)F 4.08 5
+155 ZINC00721263 Validated Specs CC1=CC(C(=C(N1c2ccc(cc2)C(=O)N)N)C#N)(C(F)(F)F)C(F)(F)F 4.41 5
+156 ZINC00721280 Validated Chemical Block COC(=O)c1c2c(sc1NC(C(F)(F)F)(C(F)(F)F)NC(=O)c3cccnc3)CCCCC2 5.75 6.5
+157 ZINC00728578 Validated Specs CC1(CC2=C([C@@H](C(=C(O2)N)C#N)c3c4ccccc4cc5c3cccc5)C(=O)C1)C 4.99 10.5
+168 ZINC00752157 Validated ChemBridge COc1ccccc1Nc2nc(nc(n2)OCC(F)(F)F)OCC(F)(F)F 5.27 5
+169 ZINC00758004 Validated ChemBridge CC[C@@H](c1ccccc1)C(=O)N2CCCN(CC2)C(=O)[C@@H](CC)c3ccccc3 4.93 5
+170 ZINC00777912 Validated ChemDiv CCC(=O)N1[C@H](CC(=N1)c2ccc(cc2)C3=NN([C@H](C3)c4cccc(c4OC)OC)C(=O)CC)c5cccc(c5OC)OC 6.65 7.3
+172 ZINC18181539 Validated Vitas‐M Cc1cc(nc(n1)S[C@@H]2CC(=O)N(C2=O)c3ccc(c(c3)OC)OC)C 2.95 10.5
+173 ZINC00293278 Validated ChemBridge Cc1ccc(cc1)S(=O)(=O)N(CCO)Cc2ccccc2 3.69 5
+174 ZINC00808563 Validated ChemBridge Cc1ccc(cc1C)n2c(=O)c3cc4c(cc3c2=O)c(=O)n(c4=O)c5ccc(c(c5)C)C 4.83 5
+175 ZINC00815319 Validated Specs Cc1ccc(cc1)c2cc(n3c(n2)c(cn3)C(=O)N4CCSCC4)C(F)F 4.55 5
+176 ZINC00820586 Eliminatede) Vitas‐M Cc1cccc(c1)N2C(=O)c3ccc(cc3C2=O)C(=O)c4ccc5c(c4)C(=O)N(C5=O)c6cccc(c6)C 5
+177 ZINC00251749 Validated Specs c1ccc2c(c1)C(=O)N(C2=O)c3ccccc3C(F)(F)F 3.55 5
+178 ZINC00822179 Validated Vitas‐M CC(=O)N[C@@H](C(Cl)(Cl)Cl)Nc1c(c2c(s1)CCCC2)C(=O)OC 5.04 8
+179 ZINC00826061 Validated ChemBridge CCCS(=O)(=O)c1c2c3ccccc3ccn2c(c1S(=O)(=O)CCC)C(=O)c4ccccc4 4.48 5
+180 ZINC00030240 Validated ChemBridge c1ccc2c(c1)C(c3ccccc3O2)C(=O)NC4CCCC4 3.95 5
+182 ZINC00845130 Validated Vitas‐M Cc1c(c(n(n1)CC(=O)Nc2c(c3c(s2)C[C@H](CC3)C(C)(C)C)C(=O)OC)C)[N+](=O)[O‐] 6.53 5
+183 ZINC00859208 Validated ChemBridge CCc1ccc(cc1)OCC(=O)NCCc2ccc(c(c2)OC)OC 4.22 5
+184 ZINC00861016 Validated Specs COc1ccc(cc1)[C@@H]2CC3=C([C@H](c4c5ccccc5ccc4N3)c6ccc7c(c6)OCO7)C(=O)C2 5.77 5
+185 ZINC00872880 Replacedd) Maybridge (Ryan Scientific) O1c2c(ccc(c2)C=C2C(=O)C(=Cc3cc4c(cc3)OCO4)CCC2)OC1 5
+185 ZINC00045256 Validated ChemBridge c1cc2c(cc1/C=C/C(=O)Nc3ccc4c(c3)OCO4)OCO2 3.72 2
+186 ZINC00894471 Validated Asinex CC(=O)Oc1cccc(c1)N2C(=O)c3ccc(cc3C2=O)C(=O)c4ccc5c(c4)C(=O)N(C5=O)c6cccc(c6)OC(=O)C 5.13 5
+187 ZINC00915416 Validated ChemBridge Cc1ccc(cc1Cl)NC(=O)CSc2nnc(o2)Cc3ccccc3 4.85 5
+189 ZINC00937066 Validated ChemBridge CCOc1ccc(cc1)NC=C(S(=O)(=O)c2ccc(cc2)C)S(=O)(=O)c3ccc(cc3)C 5.64 5
+190 ZINC00937421 Validated Ambinter c1ccc(cc1)c2cc(n(n2)c3ccc(cc3)/C=N/n4cnnc4)c5ccccc5 5.58 10
+192 ZINC00944011 Validated ChemBridge N1C(=O)C(CC(=O)Nc2c(cccc2)NC(=O)CC2C(=O)Nc3ccccc3N2)Nc2c1cccc2 3.42 6.5
+193 ZINC00944678 Validated ChemBridge Cc1c(sc2c1c(=O)n(c(n2)SCC(=O)N3CCCC3)C4CCCCC4)C 5.16 5
+194 ZINC02558386 Validated ChemBridge COc1cccc(c1)Cn2cc(cn2)N 1.55 7.3
+195 ZINC00953339 Validated Life Chemicals Cc1c(c(=O)n(n1C)c2ccccc2)NC(=O)[C@@H]3CCCCN3S(=O)(=O)c4ccc(cc4)Cl 3.89 5
+197 ZINC00959448 Validated ChemBridge CS(=O)(=O)c1ccc(c(c1)[N+](=O)[O‐])SCC(=O)Oc2ccc(cc2)C3CCCCC3 6.08 5
+199 ZINC00738600 Validated Vitas‐M Cc1ccccc1C(=O)N2CCN(CC2)c3ccc(cc3)NC(=O)c4c(cccc4OC)OC 4.16 7.3
+201 ZINC00435005 Validated ChemBridge Cc1cccc(c1)C(=O)Nc2ccc(c(c2)C)NC(=O)c3ccccc3 4.14 5
+210 ZINC04754751 Validated ChemBridge CC/C(=N\N=C/1\N(C(=O)[C@@H](S1)C)Cc2ccco2)/c3ccccc3 5.07 6.5
+211 ZINC00970310 Validated Vitas‐M Cn1c(c(cn1)Cl)c2nc(no2)c3c(non3)N 2.77 5
+212 ZINC00974316 Validated ChemBridge C1[C@@H]2C=C[C@H]1[C@H]3[C@@H]2[C@@H]4CO[C@H](C3=O)O4 1.48 5
+213 ZINC00974329 Eliminated Chemical Block COc1cc(c(cc1Cl)OC)n2c(=S)n(nn2)[C@@H]3CC(=O)[C@H]4OC[C@@H]3O4 6.5
+214 ZINC00977288 Validated Specs Cc1c(c2ccccc2n1CC=C)C=C3C(=O)OC4(CCCCC4)OC3=O 4.62 5
+215 ZINC00985518 Validated Specs CC1(CC2=C(C(C3=C(N2c4ccc(cc4)OC)CC(CC3=O)(C)C)c5ccc6c(c5)OCO6)C(=O)C1)C 5.72 5
+216 ZINC00985529 Validated Specs CCn1cc(c(n1)C)C2C3=C(CC(CC3=O)(C)C)N(C4=C2C(=O)CC(C4)(C)C)c5ccc(cc5)C 5.35 10.5
+217 ZINC00986515 Validated Specs c1ccc(cc1)Oc2ccc(cc2)NC(=S)N3CCN(CC3)C(=O)[C@H]4CCCO4 4.18 6.5
+218 ZINC00989373 Validated Specs COC(=O)CC1=C([C@@]2(c3ccccc3NC2=O)C(=C(O1)N)C(=O)OCc4ccccc4)C(=O)OC 4.25 10.5
+220 ZINC18247170 Validated Vitas‐M C[C@@H]1C=CC[C@H]2[C@@H]1C(=O)N(C2=O)c3cccc(c3)C(=O)OCC(=O)c4ccc(cc4)Br 5.29 5
+221 ZINC00996595 Validated ChemBridge COc1ccc(cc1COCC(F)(F)F)[C@@H]2[C@@H]3CCCC=C3C(=C(C2(C#N)C#N)N)C#N 5.50 5
+222 ZINC00997514 Validated Specs CCN(CC)C(=O)c1c(c(c(s1)NC(=O)c2cc(cc(c2)OC)OC)C(=O)OC)C 5.47 6.5
+223 ZINC00865825 Validated ChemBridge c1cc(sc1)[C@@H]2C[C@H](n3c(c(c(n3)C(=O)N4CCCC4)Br)N2)C(F)(F)F 4.47 5
+224 ZINC01010117 Validated Specs N1(c2ccccc2)C(=O)C(Sc2c(c(c(c(n2)N)C#N)c2ccc(cc2)C)C#N)C(=N1)C 4.99 10.5
+225 ZINC01016887 Validated Specs CCc1c(c(=O)n2c(c(sc2n1)C#N)N)C#N 2.09 5
+226 ZINC18154892 Validated Vitas‐M CSc1ccc(cc1)[C@@H]2[C@H]3[C@@H](C(=O)N(C3=O)c4cccc(c4)C(F)(F)F)ON2c5ccccc5 5.98 10
+227 ZINC01022216 Validated Specs C#Cc1cccc(c1)NC(=O)c2cc(cc(c2)N3C(=O)c4ccccc4C3=O)C(=O)Nc5cccc(c5)C#C 6.85 5
+228 ZINC01022529 Validated Chemical Block Cc1ccc(c(c1)NC(=O)[C@H]2CC3c4ccccc4C2c5c3cccc5)C 5.26 5
+229 ZINC00035148 Validated ChemBridge c1cc(c(c(c1)F)C(=O)N2CCCC2)F 1.88 5
+231 ZINC03298278 Validated Enamine C[C@H](C(=O)N)OC(=O)c1cccc(c1)C(F)(F)F 2.75 5
+232 ZINC01027811 Validated Maybridge CCOC(=O)c1cnn(c1N)C(=O)c2cnn(c2C(F)(F)F)c3ccc(cc3)[N+](=O)[O‐] 3.53 5
+233 ZINC04324659 Validated Maybridge (Chemie Brunschwig) O=C(N3CCCN(c4ncc(C(F)(F)F)cc4)CC3)c1sc(cccc2)c2c1 4.92 10.5
+234 ZINC01034232 Validated Maybridge (Ryan Scientific) c1ccc2c(c1)CC(C2)n3c(nnc3SCC(=O)c4ccc5c(c4)OCCO5)OCC(=O)c6ccc(cc6)F 5.47 6.5
+235 ZINC01036174 Validated Maybridge (Chemie Brunschwig) Cc1ccc(cc1)N2CC(=O)N(CC2=O)/N=C/c3cn(nc3c4ccc(cc4)Cl)c5ccccc5 6.14 6.5
+237 ZINC01037611 Validated Maybridge CSc1c(c(n2c(n1)c(c(n2)SC)C#N)c3ccc(cc3)Cl)C#N 5.51 5
+238 ZINC01038169 Validated Maybridge CN1c2ccccc2‐c3c(c(sc3C(=O)N4CCOCC4)SC)S1(=O)=O 3.11 5
+239 ZINC00031483 Validated ChemBridge Cc1cccc(c1C)NC(=O)CSc2ccccn2 3.19 7.3
+240 ZINC01038287 Validated Maybridge CSc1c‐2c(c(s1)C(=O)Nc3ccc(cc3)Cl)CCc4c2nc(nc4)SC 5.87 7.3
+242 ZINC01038638 Validated Maybridge (Chemie Brunschwig) CCOC(=O)C1=C(C(=O)N(C1)C(C)(C)C)Nc2ccc(cc2)OC(=O)Nc3ccc(cc3)OC(F)(F)F 6.72 5
+243 ZINC01040115 Validated Maybridge Cn1c(nnc1SCc2cc(cc(c2)F)F)c3ccc4c(c3)non4 3.68 7.3
+244 ZINC00052373 Validated ChemBridge C[C@]12c3cc(c(cc3CCN1C(=O)OC24CCCCC4)OC)OC 3.47 5
+245 ZINC16247975 Validated ChemBridge CC1=C(C[C@H]2[C@H](C1)C(=O)N(C2=O)c3cccc(c3)Br)C 3.93 5
+246 ZINC00115579 Validated ChemBridge c1ccc(cc1)S(=O)(=O)N2CCN(CC2)C(=O)c3cccnc3 2.30 7.3
+247 ZINC01042205 Validated Maybridge (Chemie Brunschwig) CCc1ccc2c(c1)cc3c(n2)c4c(n(c(=O)n(c4=O)C)C)n(c3=O)c5ccccc5 4.31 10.5
+248 ZINC01042477 Validated Maybridge (Chemie Brunschwig) CCOC(=O)C1=C(NC(=O)N[C@H]1c2ccc(o2)c3cc(cc(c3)C(F)(F)F)C(F)(F)F)C 6.04 5
+249 ZINC13463986 Eliminatedc) Maybridge (Chemie Brunschwig) CCOC(=O)/C(=C(\C)/Nc1ccc(cc1)F)/[C@H]2CC(=O)N(C2=O)c3cc(on3)C 5
+250 ZINC01043629 Validated Maybridge (Chemie Brunschwig) c1cc(ccc1c2nc(on2)C(F)(F)F)c3nc(on3)C(F)(F)F 6.06 5
+251 ZINC01043630 Validated Maybridge (Chemie Brunschwig) Cc1c(c(n(n1)c2ccccc2)C)c3nnc(o3)c4c(nn(c4C)c5ccccc5)C 5.56 6.5
+252 ZINC01043645 Validated Maybridge Cc1cc(n(n1)c2ccc(cc2)n3cccc3/C=C(\C#N)/S(=O)(=O)C)C 4.25 7.3
+253 ZINC01044831 Replaceda) Maybridge (Chemie Brunschwig) N1(N=C(CCC)C(C1=O)Cc1c(cccc1Cl)F)C(=O)C=CC1=CC=CS1 6.5
+253 ZINC01112071 Validated ChemBridge c1cc(sc1)/C=C/C(=O)Nc2ccc(cc2)I 4.67 2
+254 ZINC01045011 Eliminateda) Maybridge (Chemie Brunschwig) Cc1cccc(c1)NC(=S)Nc2ccc(cc2NC(=S)Nc3cccc(c3)C)C 5
+255 ZINC01047054 Validated Maybridge (Chemie Brunschwig) CC(C)(C)c1cc(n(n1)Cc2ccccc2)c3nc(no3)c4ccc(cn4)C(F)(F)F 6.58 10.5
+256 ZINC00988163 Validated Specs c1ccc2c(c1)cn(n2)c3ccc(cc3)C(F)(F)F 4.42 5
+257 ZINC01048063 Validated Maybridge CCCN(CCC)S(=O)(=O)c1ccc(cc1)C(=O)N2CC[C@@H]3c4ccccc4C(=O)N3C2 4.55 5
+259 ZINC01048892 Validated Maybridge C[C@H]1CN(C(NS(=O)(c2cc(C(F)(F)F)cc(C(F)(F)F)c2)=O)=N)C[C@@H](C)O1 4.43 5
+260 ZINC01048957 Validated Maybridge (Chemie Brunschwig) Cc1cc(n(n1)C2=NCCN2S(=O)(=O)c3cc(cc(c3)C(F)(F)F)C(F)(F)F)C 4.70 10.5
+261 ZINC04354136 Eliminatede) Chemical Block CCOC(=O)N1CC=C2[C@H](C1)C(=C(C(=C2C#N)N)C#N)c3cccs3 5
+262 ZINC01052739 Validated ChemBridge CN1c2ccc(c3c2c(ccc3)C1=O)S(=O)(=O)N(c4ccc(cc4)OC)C(=O)C5CCCCC5 5.26 5
+263 ZINC01055318 Validated ChemBridge c12c(non1)NC3C(N2)Nc4c(non4)N3 0.30 7.3
+264 ZINC03180157 Validated Chemical Block CC(=O)Oc1ccc(cc1OC)/C=C(/C(=O)Nc2cccc(c2)CO)\NC(=O)c3ccccc3 4.04 6.5
+265 ZINC00102777 Validated ChemBridge COc1cccc(c1)NC(=O)CSc2nnc3n2cccc3 2.45 7.3
+266 ZINC01061488 Validated Ambinter c1ccc(c(c1)[C@H]2[C@@H]3CSCC=C3C(=C(C2(C#N)C#N)N)C#N)Cl 4.50 5
+267 ZINC01062339 Validated ChemBridge CC[C@@H]1CCCCN1C(=O)[C@H]2CC(=NO2)c3cc(c(cc3OC)OC)Cl 4.55 10
+268 ZINC01064005 Validated ChemBridge CCc1ccc(cc1)N2[C@H]3CS(=O)(=O)C[C@@H]3N(C2=S)CC=C 2.86 5
+269 ZINC18213338 Validated ChemBridge c1ccc2c(c1)C3c4ccccc4C2[C@@H]5[C@H]3C(=O)N(C5=O)c6nccs6 3.83 10
+270 ZINC01067979 Validated ChemBridge c1ccc(cc1)C(=O)c2ccc(c(c2)F)N3CCN(CC3)C(=O)c4c(cccc4F)F 5.14 7.3
+272 ZINC01074103 Validated Vitas‐M Cc1cccc(c1NC(=O)CSc2nnnn2c3ccc(cc3)OC(F)(F)F)C 4.82 5
+273 ZINC01074408 Validated ChemBridge CC(C)CC(=O)N1c2c(cccc2OC)‐c3c(ssc3=S)C1(C)C 5.09 5
+274 ZINC01075720 Validated Chemical Block Cc1nc2c(c(n1)N(C)C)sc(=S)n2c3ccccc3 3.62 10.5
+275 ZINC01076516 Validated Chemical Block CCOC(=O)C1=C(N2C(=O)[C@@H](SC2=C([C@H]1c3ccc(cc3Cl)Cl)C(=O)OCC)C)N 5.49 10
+276 ZINC01078468 Validated Ambinter Cn1c2c(c(=O)n(c1=O)C)n(c(n2)SCC(=O)NCCc3ccc(c(c3)OC)OC)Cc4ccccc4F 4.00 5
+278 ZINC01087888 Validated Vitas‐M CCOC(=O)C1CCN(CC1)S(=O)(=O)c2nc3nc(cc(n3n2)C)C 2.71 7.3
+280 ZINC01089589 Validated Ambinter Cc1ccc(cc1Br)N[C@@H]2[C@@H]([C@@H]([C@H]([C@@H](O2)CO)O)O)O 2.28 7
+281 ZINC01089649 Validated ChemBridge COc1ccc(cc1)S(=O)(=O)n2c3ccccc3n(c2=O)S(=O)(=O)c4ccc(cc4)OC 5.22 5
+282 ZINC01060140 Validated Pharmeks BrC1=CC=C(/C=C3\SC2=NC(N(C)C(N4C)=O)(C6=CC=CC=C6)C4(C5=CC=CC=C5)NN2C3=O)C=C1 5.72 10.5
+284 ZINC01102279 Validated ChemBridge c1ccc(cc1)n2c(=O)n(n(c2=O)CC(=O)N3CCCCC3)CC(=O)N4CCCCC4 2.78 5
+285 ZINC01103619 Validated ChemBridge c1ccc(cc1)Sc2c(c(=O)n3ccccc3n2)/C=C\4/C(=O)N(C(=S)S4)C[C@H]5CCCO5 5.87 5
+287 ZINC01105326 Validated ChemBridge CC(=O)OC([C@@]12C=C[C@@H](O1)[C@@H]3[C@H]2C(=O)N(C3=O)c4ccc(c(c4)C(=O)OC)Cl)OC(=O)C 3.77 6.5
+288 ZINC01107975 Validated Life Chemicals CC[C@H](C(=O)Oc1ccc2c(c1)oc(=O)c3c2CCCC3)NS(=O)(=O)c4ccc(cc4)C 3.08 2.0
+289 ZINC09313347 Validated ChemBridge Cc1cc2c(cc1C)NC3=C([C@@H](N2)c4cc(c(c(c4)OC)OC(=O)C)OC)C(=O)CC(C3)(C)C 4.21 10
+290 ZINC18266455 Validated Vitas‐M CC1=CC(N2c3c1cc(cc3/C(=C/4\C(=O)N=C(S4)NC(=O)C)/C2=O)OC)(C)C 4.62 7
+291 ZINC01125223 Validated ChemBridge CC4=C(C(c2cccs2)C3=C(CCCC3=N4)O)C(N1CCCCC1)=O 3.37 6
+292 ZINC01239456 Validated ChemBridge CC(=O)Nc1ccc(cc1)OCc2cc(ccc2OC)[C@@H]3Nc4ccccc4C(=O)N3c5ccccc5 4.65 8
+293 ZINC02065666 Validated ChemBridge CCCCC(=O)NC1C2CC3CC(C2)CC1C3 3.80 5
+294 ZINC00844246 Validated ChemDiv CC1=NC2=C([C@@H](C1C(=O)OCCc3ccccc3)c4ccc(cc4)Cl)C(=O)CCC2 5.48 7.3
+295 ZINC01132042 Validated ChemBridge Cc1ccc(cc1)C(=C2[C@@H]3C=C[C@H]2[C@@H]4[C@H]3C(=O)N(C4=O)c5cccc(c5)C(=O)C)c6ccc(cc6)C 6.25 5
+296 ZINC01066443 Validated ChemDiv c1ccc(c(c1)NC(=O)COc2ccc(cc2[N+](=O)[O‐])C(F)(F)F)Br 5.16 5
+297 ZINC01134578 Validated ChemBridge CCOC(=O)c1c(nc(c(c1c2ccccc2)C#N)SC[C@]3(CCCC[C@@H]3SC)O)C 6.01 5
+298 ZINC01051722 Validated ChemBridge Cc1c2cc(ccc2oc1C(=O)Nc3ccc(cc3)S(=O)(=O)N4CCCCCC4)F 5.68 5
+299 ZINC01456961 Validated ChemBridge COC(=O)c1ccc(cc1)[C@@H]2C3=C(C[C@@H](CC3=O)c4ccco4)Nc5ccccc5N2C(=O)C6CC6 4.44 5
+300 ZINC01150180 Validated ChemBridge c1ccc‐2c(c1)CC3(CCCCC3)c4c2nc(n(c4=O)Cc5ccco5)SCC(=O)N 5.45 7.3
+301 ZINC00991867 Validated ChemBridge c1ccc2c(c1)C(=O)N(C2=O)c3cccc(c3)C(=O)OCC(=O)c4ccc(cc4)F 4.68 5
+302 ZINC00051416 Validated ChemBridge Cc1nccn1S(=O)(=O)c2ccc(cc2)Cl 2.93 7.3
+303 ZINC01158380 Eliminated ChemBridge Cc1ccc(cc1)N([C@@H]2CS(=O)(=O)C=C2)C(=O)c3cc(c(c(c3)OC(=O)C)OC(=O)C)OC(=O)C 5
+304 ZINC13154025 Validated ChemBridge c1cc(c(cc1N2C(=O)[C@H]3CC=CC[C@@H]3C2=O)C(=O)N)N4CCCCC4 3.68 10
+306 ZINC01187392 Validated ChemDiv CC(=O)Oc1ccc(cc1)C(=O)Nc2cccc(c2)C(=O)c3cccc(c3)NC(=O)c4ccc(cc4)OC(=O)C 5.34 5
+307 ZINC00766498 Validated ChemBridge Cc1ccc(cc1)N2[C@@H](Nc3ccccc3C2=O)c4cccc(c4)[N+](=O)[O‐] 4.18 5
+309 ZINC01195716 Replacedg) ChemBridge N1(C(=O)c2c(cccc2[N+](=O)[O‐])C1=O)CC(=O)Oc1ccc2c(c1)OC(=O)C=C2C 6.5
+309 ZINC00160197 Validated ChemBridge O=C(N2/N=C/c3c(Cl)ccc([N+]([O‐])=O)c3)c1ccccc1C2=O 4.03 5
+310 ZINC01196712 Validated ChemBridge Cc1ccc(c(c1)C(=O)c2ccccc2)NC(=O)c3ccc(cc3)S(=O)(=O)N4CCOCC4 4.54 5
+311 ZINC16676346 Validated ChemBridge CC1=C([C@H](C(=C(N1)SCC(=O)c2ccc(cc2Cl)Cl)C#N)c3cccs3)C(=O)C 5.25 10.5
+312 ZINC00707994 Validated ChemBridge CC1=NC2=C([C@H](C1C(=O)OC[C@@H]3CCCO3)c4cccc(c4)OC)C(=O)CCC2 3.62 7.3
+313 ZINC01208728 Validated ChemBridge c1c(cc(cc1C(=O)N)NC(=O)c2cc(cc(c2)C(F)(F)F)C(F)(F)F)C(=O)N 3.87 5
+314 ZINC01210122 Validated ChemBridge COc1ccccc1N2C(=O)c3ccc(cc3C2=O)C(=O)Nc4ccc(cc4)c5nnc(o5)c6ccccc6 6.17 6.5
+315 ZINC01213157 Validated ChemBridge CC1=C([C@@H](C2=C(N1)CC(CC2=O)(C)C)c3cc(ccc3Cl)[N+](=O)[O‐])C(=O)OC[C@@H]4CCCO4 4.53 10
+316 ZINC01868102 Validated ChemBridge CC[C@H](C(=O)c1ccccc1)OC(=O)CNC(=O)c2ccc(cc2)N3C(=O)c4ccccc4C3=O 4.15 2
+317 ZINC00998518 Validated ChemBridge CCC(=O)N1c2ccccc2NC3=C([C@H]1c4ccc(o4)c5ccc(cc5Cl)[N+](=O)[O‐])C(=O)CC(C3)(C)C 5.55 5
+318 ZINC01218919 Eliminated ChemBridge Cc1ccnc(c1)N2C(=O)c3ccc(cc3C2=O)C(=O)c4ccc5c(c4)C(=O)N(C5=O)c6cc(ccn6)C 5
+319 ZINC08934271 Validated ChemBridge CC1=C([C@@H](C(=C(N1)SCC(=O)Nc2ccccc2)C#N)c3ccccc3Cl)C(=O)C 4.97 10.5
+321 ZINC00786356 Validated ChemBridge c1cc2c(cc1c3ccc4c(c3)C(=O)N(C4=O)CCO)C(=O)N(C2=O)CCO 3.19 5
+322 ZINC01234952 Validated ChemBridge COc1ccc(cc1)NC(=O)c2cc(cc(c2)NC(=O)c3ccccc3)C(=O)Nc4ccc(cc4)OC 5.59 5
+323 ZINC08741738 Validated Life Chemicals Cc1ccccc1N2[C@@H]([C@@H]3[C@@H](O2)C(=O)N(C3=O)c4c(c5c(s4)CCCC5)C#N)c6ccc(cc6)OC 5.83 5
+324 ZINC18227453 Validated Vitas‐M CC[C@@H]1CCc2c(sc(c2C(=O)OCC)NC=C3C(=O)N(C(=O)N(C3=O)C)C)C1 5.76 5
+325 ZINC01245439 Validated Ambinter CCOc1cc(ccc1OC(C)C)[C@H]2[C@@H]3CN(CC=C3C(=C(C2(C#N)C#N)N)C#N)C(=O)OC(C)(C)C 5.83 5
+326 ZINC16739874 Validated Life Chemicals Cc1ccc(cc1)S(=O)(=O)/N=C\2/N(C(=O)C(=CN(C)C)S2)C3CCCCC3 4.75 6.5
+327 ZINC01250844 Validated Vitas‐M CCOc1ccc(cc1OCC)C[C@H]2c3cc(c(cc3CCN2C(=O)c4c(ncs4)C)OCC)OCC 4.98 5
+329 ZINC01258241 Validated Vitas‐M CC1(OC[C@@H](O1)COc2c(c(nc(c2Cl)F)N3CCOCC3)F)C 4.07 5
+330 ZINC09210816 Validated IBScreen COc1cccc(c1)C2=NN=C3[C@@H]2[C@H](C(=C(O3)N)C#N)c4cc(c(cc4Br)OC)OC 4.52 10.5
+331 ZINC01857441 Validated ChemBridge CCNC(=O)/C(=C/c1cn(nc1c2cccs2)c3ccccc3)/NC(=O)c4ccccc4 4.64 5
+336 ZINC01295422 Validated ChemBridge COC(=O)c1ccc(cc1)N([C@H]2CS(=O)(=O)C=C2)C(=O)C(F)(F)F 2.05 5
+337 ZINC00081634 Validated ChemDiv Cc1cccn2c1nc(c(c2=O)C=O)NC 2.68 7.3
+339 ZINC06781006 Validated ChemBridge CC(NC(SC1=C2)=NC1=CC3=C2N=C(S3)NC(C)=O)=O 3.13 6.5
+340 ZINC09041058 Validated ChemBridge O=C(C(F)(F)F)N2C(c3occc3)C(C(CC(c5cc([N+]([O‐])=O)ccc5)C4)=O)=C4Nc1ccccc12 4.68 5
+341 ZINC01308593 Validated Pharmeks COc1ccc(C5CC3=C(C(C5)=O)C(c4cc(OC)c(OC)c(OC)c4)N(C(C(F)(F)F)=O)c2c(N3)cccc2)cc1 4.87 7.3
+342 ZINC06923965 Validated Ambinter Cc1ccc(cc1N2C(=O)[C@H]3[C@H]4C=CC=NN4[C@@H]([C@@H]3C2=O)C(=O)C(C)(C)C)[N+](=O)[O‐] 3.85 5
+343 ZINC05163260 Validated Life Chemicals c1ccc2c(c1)nc3c(n2)n(c(n3)c4ccc(cc4)[N+](=O)[O‐])C[C@@H]5CCCO5 3.75 10.5
+344 ZINC00281934 Validated ChemBridge CCOC(=O)c1c(c2c([nH]1)CCC(=C2Cl)C=O)C 3.92 5
+346 ZINC01320772 Validated Enamine c1ccc(cc1)S(=O)(=O)c2c3c(nc(c(n3)C#N)C#N)n(c2N)Cc4ccc(cc4)F 4.86 5
+347 ZINC01775277 Validated ChemBridge CCOCCOC(=O)[C@H](C)n1cnc2c(c1=O)c3c(s2)C[C@H](CC3)C 4.25 10
+348 ZINC08763282 Validated Bionet (Ryan Scientific) Cc(nnc12)n1c(cc(Cl)cc3)c3n(CCNc4ncc(C(F)(F)F)cc4Cl)c2=O 4.57 10.5
+351 ZINC01386314 Validated Bionet (Ryan Scientific) Cc1ccc(n1c2ccc(cc2)c3ccnc4n3ncn4)C 3.50 10
+352 ZINC01015500 Validated ChemBridge COc1ccc(cc1OC)C(=O)/C=C/Nc2ccc(c(c2)C(F)(F)F)Cl 5.31 5
+353 ZINC00367451 Validated Specs COC(=O)/C=C/CN1C(=O)c2ccccc2C1=O 2.46 5
+354 ZINC01156766 Validated ChemBridge C[C@H](c1ccccc1)NC(=O)C2CCN(CC2)C(=O)c3ccc(cc3)F 3.48 5
+355 ZINC01392159 Validated Bionet (Ryan Scientific) C[C@@]1([C@H]2NC(=S)N(N2C(=S)N1)c3ccc(cc3)Cl)c4ccc(cc4)Cl 4.94 5
+357 ZINC05524751 Validated Bionet (Ryan Scientific) CN(C)C(=C(C#N)C#N)/C=C/Nc1cc(cc(c1)Cl)Cl 1.59 6.5
+358 ZINC01401816 Validated Keyorganic O=C(Nc(cc4c(CCCC4=O)n2CCNc3ncc(C(F)(F)F)cc3Cl)c2=O)c1ccc(Cl)cc1 5.83 7.3
+359 ZINC01403110 Validated Bionet (Ryan Scientific) c1cc(sc1)C[C@H](C#N)c2c(cc(cn2)C(F)(F)F)Cl 4.09 5
+360 ZINC01403863 Validated Bionet (Ryan Scientific) C[C@H](C(=O)c1cn(nn1)c2ccc(cc2)OC(F)(F)F)Oc3ccc(cc3F)F 5.83 5
+361 ZINC01404771 Validated Keyorganic CCO[C@@]([C@@H]1[C@@H]4[C@@H](C(N(N(c5ncc(C(F)(F)F)cc5Cl)C)[C@]4=O)=O)[C@](C3=C(O)c2c(C3=O)cccc2)=N1)=O 4.38 10
+362 ZINC01405175 Validated Bionet (Ryan Scientific) Cc1c(c(=O)ccn1Cc2ccc(cc2)Cl)OCc3c(cccc3Cl)F 5.63 10.5
+363 ZINC01407812 Eliminatedc) Ambinter Cc1cc(nc(n1)N(C(=O)C)C(=O)C)n2c(cc(n2)c3ccc4ccccc4c3)C(F)(F)F 10
+364 ZINC00833863 Validated ChemBridge CC1(CC2=C([C@@H](C(=C(O2)N)C#N)c3ccc(cc3)C(F)(F)F)C(=O)C1)C 4.55 5
+365 ZINC01425882 Validated Chemical Block CCOc1ccc(cc1OCC)CC(=O)C2=C(CCCC2=O)N3CCCC3 3.30 6.5
+366 ZINC01426971 Validated Chemical Block Cc1c(c2c(s1)[C@H](C(=C(O2)N)C#N)c3cc(cs3)Br)C(=O)OC 5.06 10.5
+367 ZINC01427722 Validated Chemical Block COc1cc(c(cc1OC)NC(=O)COc2c(non2)N3CCOCC3)C(=O)OC 4.49 6.5
+368 ZINC01429011 Validated Chemical Block CN(C)c1nc(nc(n1)N)COC(=O)c2ccc(cc2)n3cnnc3 2.74 10.5
+369 ZINC01430778 Validated Chemical Block COc1ccc(c(c1)OC)[C@@H]2CC(=O)N(C3=C2C(=O)CCC3)c4c(c5c(s4)CCCC5)C#N 4.55 5
+370 ZINC01430947 Validated ChemBridge COc1cccc(c1)OCCn2c(=O)c3cc4c(cc3c2=O)c(=O)n(c4=O)CCOc5cccc(c5)OC 5.43 5
+371 ZINC01435754 Validated Ambinter CC(C)(C)C(=O)[C@H]1[C@@H](C([C@@H]2N1c3ccccc3C=C2)(C#N)C#N)c4ccsc4 3.37 10
+372 ZINC01438543 Validated Vitas‐M CC1=C([C@H](C2=C(N1)C[C@@H](CC2=O)c3cccs3)c4ccc5c(c4)OCO5)C(=O)OCCc6ccccc6 5.44 10
+373 ZINC01439744 Validated Vitas‐M CC1=C([C@H](C2=C(N1)C[C@H](CC2=O)c3ccccc3OC)c4ccc(cc4)OC(=O)C)C(=O)OC5CCCC5 5.81 10
+374 ZINC01440693 Validated Ambinter CCOc1cc(c(cc1OCC)NC(=O)c2cc(c(cc2Cl)Cl)S(=O)(=O)N3CCOCC3)C#N 4.31 5
+375 ZINC01440820 Validated Specs O=c1cc(CO)oc2c1OC(N)=C(C#N)C2c3c(OCc4ccccc4Cl)cccc3 4.34 6.5
+376 ZINC01061471 Validated ChemBridge CC(C)CNc1nc(nc(n1)SCC(=O)OC)N2CCOCC2 3.75 8
+377 ZINC01446574 Validated Vitas‐M Cc1ccccc1C(=O)N[C@H](C(Cl)(Cl)Cl)NC(=S)Nc2ccccc2OC 3.95 2
+378 ZINC01449296 Validated Vitas‐M CC1=C(C(C(=C(N1)C)C(=O)OC)c2cn(nc2c3cccc(c3)[N+](=O)[O‐])c4ccccc4)C(=O)OC 5.04 5
+379 ZINC01450871 Validated Vitas‐M Cc1c(c(=O)n(n1C)c2ccccc2)N[C@H](C(Cl)(Cl)Cl)NC(=O)c3cccc(c3)[N+](=O)[O‐] 3.99 5
+380 ZINC01457114 Validated Vitas‐M C[C@H]1CN(C[C@@H](O1)C)C(=O)c2cc(nc3c2cccc3)c4ccc5c(c4)OCO5 4.19 10
+381 ZINC01458709 Eliminated Vitas‐M CCC(=O)OCCN1C(=O)c2ccc(cc2C1=O)C(=O)c3ccc4c(c3)C(=O)N(C4=O)CCOC(=O)CC 5
+382 ZINC01463390 Validated Enamine‐REAL Cc1ccc(cc1C)n2c(cc(=O)cc2C)C 2.95 10.5
+384 ZINC01470650 Validated ChemBridge CCc1cccc(c1N([C@@H](C)COC)C(=O)Cn2c3ccccc3nc2[C@@H](C)O)C 4.48 8
+387 ZINC18115187 Validated Vitas‐M Cc(cc2c1C(c3cc(OC)c(OC)c(OC)c3)C(C#N)=C(N)O2)[nH]c1=O 2.55 10.5
+395 ZINC01514859 Validated Enamine c1ccc(cc1)C(=O)N2CCCC[C@H](C2=O)Sc3nnc4n3cccc4 3.14 10.5
+396 ZINC01515530 Validated Enamine N1(C(=O)C2C3c4c(cccc4)C(C2C1=O)c1c3cccc1)CCOC(=O)c1ccc(cc1)S(=O)(=O)N(CCC)CCC 4.17 5
+397 ZINC00094814 Validated ChemBridge Cc1ccc(c(c1)C)NC(=O)c2c(ccc(c2OC)Cl)Cl 4.00 5
+398 ZINC00243170 Validated Specs CCOC(=O)c1c(sc(n1)N)C 1.74 8
+399 ZINC01647950 Eliminated Vitas‐M COc1ccc(cc1)N2[C@@H](C(C(=C2N)C#N)(C#N)C#N)c3cccc(c3)[N+](=O)[O‐] 5
+401 ZINC01742482 Validated Enamine c1ccc(cc1)C(=O)Oc2ccc3cc(c(=O)oc3c2)c4nc5ccccc5s4 5.70 10
+404 ZINC01776464 Validated ChemBridge CC(C)CCn1c2c(nc1NCCO)n(c(=O)n(c2=O)C)C 2.93 7.3
+405 ZINC01787803 Validated Specs O=C(OC)C1=CC=C(C2C(C(OCC)=O)=C(N)N(C(/C(S4)=C/C3=CC=C(C(OC)=O)C=C3)=O)C4=C2C(OC)=O)C=C1 6.95 7.3
+408 ZINC01798674 Validated Pharmeks c1cc(ccc1CON2[C@H]3CCCC[C@@H]3N(C(=O)C2=O)OCc4ccc(cc4)Br)Br 5.49 7.3
+409 ZINC01802740 Validated ChemBridge Cc1cc(c(n1CCOC)C)C(=O)CSc2c3c(c(sc3ncn2)C)C 4.59 6.5
+410 ZINC01803312 Validated ChemBridge C[C@@H]1CCc2c(sc3c2c(ncn3)SCC(=O)Nc4cc(ccc4C(=O)OC)C(=O)OC)C1 5.79 6.5
+411 ZINC00357200 Validated ChemBridge Cc1ccc(cc1C)NC(=O)[C@@H]2CCCN2C(=O)OC(C)(C)C 3.90 5
+412 ZINC01812703 Validated Pharmeks CC(=O)[C@@]1(CC[C@@H]2[C@]1(CC[C@H]3[C@@H]2CCC4=CC(=CC[C@@]34C)NOCC(=O)N[C@@H](c5ccccc5)C(=O)OC)C)O 6.27 7.3
+414 ZINC02310748 Validated ChemBridge CCCC[C@]1(NC(=S)N(N1)c2ccc(cc2)C)c3ccccc3 5.10 10
+417 ZINC01837680 Validated Enamine C1CCc2c(c3c(nc(nc3s2)SCC(=O)N(CCO)CCO)N)C1 3.20 10.5
+419 ZINC00273616 Validated ChemBridge Cc1cc2c(c(c1C)[N+](=O)[O‐])nsn2 2.64 5
+420 ZINC01860590 Validated IBScreen CCOP(=O)(Cc1ccc(o1)CP(=O)(OCC)OCC)OCC 3.25 7.3
+421 ZINC18130691 Validated Vitas‐M COc1ccc(cc1)/N=C/c2ccc(cc2)/C=N/c3ccc(cc3)OC 5.24 10
+423 ZINC01643724 Eliminated Vitas‐M CCOP(=O)(C(C)(C)OC(=O)NC(F)(F)F)OCC 5
+425 ZINC04038619 Validated IBScreen CCCc1c2c(n[nH]1)OC(=C([C@@]23c4ccccc4N(C3=O)CC(=O)N)C(=O)OC)N 4.48 8
+427 ZINC02880792 Validated ChemBridge c1ccc2c(c1)ncc(n2)c3cccc(c3)NC(=O)c4cccs4 4.34 7.3
+428 ZINC01882819 Validated Pharmeks c1ccc(cc1)N2[C@@H]([C@@H]3[C@H](O2)C(=O)N(C3=O)c4ccc(cc4)Cl)c5ccccc5OS(=O)(=O)c6ccccc6 6.47 7.3
+429 ZINC03234159 Validated Enamine CCCC(=O)OCC(=O)Nc1ccc(cc1Cl)F 3.02 5
+430 ZINC01172022 Validated ChemBridge c1ccc2c(c1)/C(=C/3\C(=O)N(C(=S)S3)Cc4ccco4)/C(=O)N2CC(=O)Nc5ccc(cc5)F 6.36 6.5
+432 ZINC03399146 Validated ChemBridge Cc1ccccc1c2nc(on2)CCl 3.30 5
+433 ZINC00308399 Validated ChemBridge c1ccc(cc1)CSC[C@@H]2C(=O)N(C(=S)N2)C3CCCCC3 4.58 2
+438 ZINC12413552 Validated Life Chemicals CCOC(=O)N1CCN(CC1)C(=O)c2ccc(cc2)N3C(=O)[C@H]4CCCC[C@@H]4C3=O 3.74 5
+439 ZINC01745390 Validated ChemBridge CC(C)CCn1c2c(nc1NCCO)n(c(=O)n(c2=O)C)C 5.36 5
+443 ZINC01953737 Validated Enamine COc1ccc(c(c1)NC(=O)c2ccc(cc2)NC3=C(C(=O)N(C3=O)C4CCCCC4)Cl)OC 5.96 5
+444 ZINC05841926 Validated Enamine‐REAL N1(C(=CC=CC(=O)C(F)(F)F)C(c2c1cccc2)(C)C)C 4.41 6.5
+450 ZINC00519934 Eliminated ChemBridge CC(=O)OCCC1=CC[C@H]2C[C@@H]1C2(C)C 5
+454 ZINC01506334 Validated ChemBridge C[C@H]1CCc2c(sc(n2)NC(=O)c3ccc(c(c3)F)F)C1 4.79 6.5
+455 ZINC02026866 Validated Specs CC1(C(=NC(=S)N1c2ccc(cc2)OC)N[C@@H]([C@H](n3cncn3)Oc4ccc(cc4)Cl)C(C)(C)C)C 5.56 6.5
+457 ZINC02029934 Eliminated ChemBridge c1cc(ccc1c2nc(nc(n2)N)N)Oc3ccc(cc3)Oc4ccc(cc4)c5nc(nc(n5)N)N 10
+458 ZINC02030843 Validated ChemDiv C1(=C(NC(=C(C1c1sccc1)C#N)SCCCCCC)C)C(Nc1c(cccc1)OC)=O 6.28 5
+459 ZINC02038455 Validated Enamine C1C=C[C@@H]2[C@H]1[C@@]3(C(=C([C@]2(C3(Cl)Cl)Cl)Cl)Cl)Cl 5.69 5
+460 ZINC18141967 Validated ChemBridge Cc1c(c(=O)n(n1C)c2ccccc2)N/C=C\3/c4ccc(cc4C(=O)N(C3=O)Cc5ccco5)OC 4.66 10
+462 ZINC02064506 Validated Specs CCCCC(=O)Nc1ccc(c(c1)[N+](=O)[O‐])F 3.04 5
+463 ZINC13302512 Validated ChemBridge CCO/C(O)=C/c2nc1nonc1nc2O 1.61 10
+466 ZINC17293287 Eliminatedd) Specs COc1cc(cc(c1OC)OC)/C=C/2\CCC/C(=C/c3cc(c(c(c3)OC)OC)OC)/C2=O 5
+467 ZINC00684489 Validated ChemBridge CCC(=O)N1c2ccccc2‐c3c(nc(nn3)SC)O[C@H]1c4ccc(c(c4)OC)OCC 3.95 7.3
+468 ZINC02077740 Eliminated Ambinter CC[C@@H](C#C[C@](C)(CCC=C(C)C)O)O 5
+471 ZINC02086271 Validated ChemBridge c1c(cc2c(c1)OCO2)/C=C/C(=O)NCCCCNC(=O)/C=C/c3cc4c(cc3)OCO4 4.59 5
+474 ZINC03284659 Validated ChemBridge COc1cc(cc(c1)OC)C(=O)Oc2ccc(cc2)C(=O)OC 4.64 5
+475 ZINC08450623 Validated Specs COc1ccc(cc1CSc2ccccn2)[C@H]3C(=C(N(C4=C3C(=O)CCC4)c5ccccc5C(F)(F)F)N)C#N 5.45 10.5
+476 ZINC02106936 Replaced Specs S1(=O)(=O)N(C(=O)c2ccccc21)CC(=O)NC(P(=O)(OCC)OCC)C(Cl)(Cl)Cl 5
+476 ZINC00731980 Validated Vitas‐M CC(C)C(=O)N[C@@H](C(Cl)(Cl)Cl)Oc1ccc(cc1)C=O 3.68 5
+477 ZINC02107492 Validated Specs CC(C)[C@@H](C(=O)Nc1nc(cs1)c2ccc(cc2)S(=O)(=O)N3CCOCC3)N4C(=O)c5ccccc5C4=O 5.32 7.3
+480 ZINC08451187 Validated Specs CC(C)OC(=O)C1=C(OC(=C([C@@H]1c2ccncc2)C#N)N)CSc3c(cc4c(n3)CCCCC4)C#N 5.43 10
+481 ZINC02120884 Eliminated Specs CCCCC1(OC(=O)C(=Cc2ccc3c(c2)OCO3)C(=O)O1)C 5
+482 ZINC00987436 Eliminatedd) Specs Cc1ccsc1/C=C/2\C(=O)N(C(=O)S2)CC(=O)N3CCCCC3 6.5
+483 ZINC02132529 Validated Specs Cc1ccccc1OCC(=O)NCCNC(=O)COc2ccccc2C 4.25 6.5
+484 ZINC02141091 Validated Specs CC(=O)N1CC(=O)N(C1=S)CC(=O)N(Cc2ccccc2)c3nc(cs3)c4ccccc4 4.43 6.5
+486 ZINC02151966 Validated Specs COc1cc(cc(c1OC)OC)[C@@H]2C3=C(CCCC3=O)N(C(=C2C(=O)c4ccccc4)N)c5ccccc5C(F)(F)F 4.51 5
+488 ZINC02172705 Validated Specs Cc1nnc(s1)N2[C@@H](c3c(=O)c4ccccc4oc3C2=O)c5cccc(c5)OCC=C 4.52 6.5
+490 ZINC02076381 Validated ChemBridge CCOc1cc(cc(c1OCC#C)I)C=C2C(=O)N(C(=S)N(C2=O)C)C 3.72 5
+491 ZINC00191380 Validated ChemBridge COc1nc(nc(n1)Cl)Nc2ccccc2 2.89 5
+496 ZINC00865538 Validated ChemBridge c1cc(cc(c1)Oc2ccc3c(c2)C(=O)N(C3=O)CCO)Oc4ccc5c(c4)C(=O)N(C5=O)CCO 4.61 5
+497 ZINC08469096 Validated Vitas‐M Cc1cccc(c1)n2c(cn3c2nc4c3c(=O)n(c(=O)n4C)C)c5cccc(c5)OC 4.16 5
+498 ZINC02312992 Validated Vitas‐M CCc1ccc(cc1)c2csc(n2)/C(=C/Nc3ccc4c(c3)OCO4)/C#N 6.59 5
+502 ZINC13464795 Validated ChemBridge CCN(c1nnc(s1)c2ccc(cc2)Cl)C(=O)CN3C(=O)[C@@H]4CCCC[C@@H]4C3=O 4.91 6.5
+503 ZINC02339277 Validated ChemBridge Cc1c2c(n(c(c2c(nn1)C)C)[C@H](C)c3ccc(cc3)OC)C 3.43 8
+504 ZINC02341661 Validated Life Chemicals C[C@@H]1CCCN(C1)c2nc3c(n2CCSc4nc5ccccc5s4)c(=O)n(c(=O)n3C)C 5.05 6.5
+506 ZINC02350444 Validated ChemBridge c1ccc(cc1)COC(=O)CSc2c(c(sn2)SCC(=O)OCc3ccccc3)C#N 5.60 5
+508 ZINC02381831 Validated Life Chemicals c1cc(sc1)/C=C/2\C(=O)N(C(=S)S2)CCCCCC(=O)N3CCOCC3 4.92 6.5
+509 ZINC02420977 Validated Vitas‐M Cc1c(c(=O)c2ccc(cc2o1)OCC(=O)OCC=C)c3ccc(cc3)Cl 4.84 5
+510 ZINC02439283 Validated ChemBridge CCc1cc2c3c(c1)[C@@]4(C(=C(OC5=C4C(=O)CC(C5)(C)C)N)C#N)C(=O)N3C(C=C2C)(C)C 5.39 10.5
+511 ZINC02459574 Validated Life Chemicals CCCSc1nc2c(c(=O)n1c3ccc(cc3)Br)SCC2 4.61 10
+512 ZINC02464437 Validated ChemBridge CCCCCC(=O)NC1(CCCC1)CCC 4.28 5
+513 ZINC00704427 Validated ChemBridge CCOC(=O)C1=C(OC(=C([C@H]1c2cccc(c2)I)C#N)N)C 4.48 5
+514 ZINC02475899 Validated ChemBridge CCCCN1[C@H]2[C@@H](N(C1=O)C)N(C(=O)N2C)CCCC 2.69 5
+515 ZINC02488810 Validated ChemBridge Cc1c(sc(n1)SCCOc2ccccc2)C(=O)C 3.86 2
+516 ZINC18091170 Validated ChemBridge c1ccc(cc1)[C@H]2[C@@H]3[C@@H](C(=O)N(C3=O)c4ccccc4)C5(O2)C(=O)c6ccccc6C5=O 4.00 5
+517 ZINC02502884 Validated Vitas‐M CCc1ccc(cc1)[C@@H]2C(=C(N=C3N2C(=O)CCS3)C)C(=O)OC(C)C 4.75 10
+519 ZINC02555316 Validated Specs Cc1cc2c(c(=O)o1)[C@H](C(=C(O2)N)C#N)c3cccc(c3F)F 3.10 10.5
+520 ZINC02579295 Validated Enamine c1(c(c(nc(c1F)F)F)F)NN 0.86 7
+521 ZINC01263811 Validated Vitas‐M c1ccc(cc1)/C=C/C(=O)Nc2ccc(cc2)N3CCN(CC3)C(=O)c4cccs4 4.94 7
+524 ZINC00956989 Validated ChemBridge CCOc1cc(ccc1OCc2ccc(cc2)Cl)[C@@H]3C(=C(NC(=S)N3)C)C(=O)OCC 5.31 5
+528 ZINC02617139 Validated Enamine Cc1cc(c(n1C[C@@H]2CCCO2)C)C(=O)COC(=O)c3ccc(cc3OC)OC 4.18 5
+529 ZINC02617857 Validated Enamine Cc1c2c(nc3n(c2=O)CCCCC3)sc1C(=O)N4CCN(CC4)S(=O)(=O)c5ccccc5 4.13 10.5
+531 ZINC02622674 Validated Enamine CC(=C)CSc1nnc(n1C2CCCC2)c3cccc(c3)S(=O)(=O)N4CCOCC4 4.73 10.5
+532 ZINC02624194 Validated Enamine c1cc(sc1)c2nnc(o2)SCC(=O)NCCN3C(=O)CSC3=O 2.31 5
+533 ZINC06567055 Validated Enamine Cn1c2ccccc2nc1[C@@H](C#N)C(=O)[C@H](c3ccccc3)Sc4ccccc4 5.28 7
+534 ZINC02792202 Validated ChemBridge c1cc(ccc1NC(=O)c2ccc(o2)COc3ccc(cc3)I)OC(F)F 5.99 5
+535 ZINC01164511 Validated ChemBridge Cc1ccc(cc1)CN2C(=O)/C(=C/[C@H]3CCC=CC3)/SC2=S 6.26 6.5
+537 ZINC00047229 Validated ChemBridge c1ccc(cc1)CCNC(=O)c2ccc(cc2)Cl 3.71 5
+538 ZINC00937545 Validated ChemBridge c1cc(cc(c1)S(=O)(=O)N2CCOCC2)C(=O)N3CCN(CC3)c4cccc(c4)Cl 4.34 7.3
+539 ZINC02690496 Eliminatedc) ChemDiv Cc1c2c(nc3n(c2=O)NC(=CS3)c4cc5ccccc5oc4=O)sc1C(=O)Nc6ccccc6OC 8
+540 ZINC02690652 Validated ChemDiv CC(=O)c1ccc(cc1)NC(=O)CNC(=O)CNC(=O)[C@H]2[C@H]3[C@@H]([C@@H]4[C@H](O2)OC(O4)(C)C)OC(O3)(C)C 3.39 5
+541 ZINC00573711 Validated ChemDiv Cc1cccc(c1NC(=O)Cn2cc(c3c2cccc3)C(=O)C4CC4)C 3.47 2
+542 ZINC02696214 Validated ChemBridge CCOC(=O)c1c2c(sc1NC(=O)CSc3nnc(s3)C)CCCCC2 5.03 7.3
+543 ZINC02697092 Validated ChemBridge Cc1ccc(c(c1)C)N(C[C@@H](Cn2c3ccccc3c4c2cccc4)O)S(=O)(=O)C 5.56 6.5
+544 ZINC02705704 Validated Life Chemicals CC1CCC2(CC1)N=C(C(=O)N2CC(=O)Nc3ccc4c(c3)OCCO4)c5ccccc5 5.07 6.5
+545 ZINC01181998 Validated Vitas‐M CC(C)CN1C(=O)/C(=C/[C@H]2CCC=CC2)/SC1=S 6.66 5
+546 ZINC01322675 Validated ChemBridge C[C@@]12CC[C@H]3[C@@]1(CO[C@@]2(C3)C(=O)NCC(F)(F)F)C 3.11 5
+547 ZINC02708085 Validated ChemBridge Cc1c(c(cc(c1C)Br)C(=O)NCCCOC)C 2.93 10.5
+548 ZINC02715265 Validated Life Chemicals C=CCN2C1=C(OC)C=CC=C1S/C2=N\C(C3=CC(OC)=C(OC)C(OC)=C3)=O 5.14 10.5
+549 ZINC02716446 Validated Life Chemicals CC[C@@H]1CCCCN1C(=O)COc2cccc3c2CCN(C3=O)Cc4ccc(cc4)Cl 5.23 6.5
+550 ZINC11726409 Validated Life Chemicals O=C(C3=CC=C(S(=O)(N(C4=CC=CC=C4)C)=O)C=C3)\N=C2N(C)C1=CC=C([N+]([O‐])=O)C=C1S/2 5.84 6.5
+551 ZINC00053798 Validated ChemBridge Cc1c(c(n(n1)c2ccccc2)N)c3ccccc3 3.27 7.3
+552 ZINC02719029 Validated ChemDiv c12n(nc(n2)SCc2c(cccc2)F)C(C(=C(N1)C)C(Nc1c(cccc1)OC)=O)c1ccncc1 4.66 7.3
+553 ZINC02722701 Validated ChemDiv Cc1cc(=O)oc2c1ccc(c2)OC[C@H]3c4cc(c(cc4CCN3C(=O)C5CCCCC5)OC)OC 5.07 5
+554 ZINC02728504 Validated ChemBridge c1cc(oc1)C(=O)N2CCN(CC2)c3ccc(cc3Cl)NC(=O)c4c(c(c(c(c4F)F)F)F)F 5.85 6.5
+555 ZINC02729261 Validated Vitas‐M CCCOc1ccc(cc1)NC(=O)C[C@H]2C(=O)N(C(=S)N2C3CC3)c4ccc(cc4)Cl 5.41 5
+556 ZINC06275647 Validated Vitas‐M Cc1c(cn(n1)C)c2cc(nc(c2C#N)SCC(=O)NCC=C)C(F)F 3.74 6.5
+557 ZINC02731613 Validated Ambinter c1cc(c(c(c1)Cl)Cn2ccc(n2)Nc3nnc(s3)Cc4ccc(cc4)n5cnnn5)C 4.99 10
+559 ZINC02732234 Validated Ambinter Cc1cc(nn1[C@@H](C)c2nnc(s2)Nc3ccn(n3)Cc4ccccc4)C(F)(F)F 5.34 10
+560 ZINC00994397 Validated ChemBridge Cn1c(c(cn1)Br)C(=O)N2CCCCCC2 2.63 5
+561 ZINC01422950 Validated Vitas‐M Cn1cnnc1SCC(=O)Nc2cc(c(cc2C(=O)OC)OC)OC 2.78 7.3
+562 ZINC00707450 Validated Vitas‐M CC1=C([C@H](NC(=O)N1)c2ccc(c(c2)OC)OC(F)F)C(=O)OC(C)C 3.75 5
+563 ZINC00077562 Validated ChemBridge CC1=NN([C@@](C1)(c2ccc(cc2)Cl)O)C(=O)c3ccccc3Cl 3.73 5
+565 ZINC00116611 Validated Specs Cc1cc(n(c(=O)c1C#N)/N=C/c2ccccc2OC)C 3.08 5
+566 ZINC02741252 Validated Ambinter c1cc(cc(c1)C(=O)N2CC[C@H](n3c2ccn3)C(F)(F)F)COCC(C(F)F)(F)F 4.27 5
+568 ZINC02749277 Validated ChemBridge c1c(nc2cc(nn2c1C(F)(F)F)C(=O)NC[C@H]3CCCO3)C4CC4 3.33 5
+569 ZINC02749578 Validated Vitas‐M CCn1cc(c(n1)C)CN(C)C(=O)c2cc3cc(ccc3oc2=O)Br 3.27 5
+570 ZINC02750654 Validated Vitas‐M C[C@@H]1CCCCN1C(=O)CCCCC(=O)N2CCCC[C@H]2C 3.42 5
+571 ZINC00877511 Validated ChemBridge CCCn1c2ccccc2c3c1nc(nn3)SCC(=O)N[C@H](C)c4ccccc4 4.36 7.3
+572 ZINC00432559 Validated ChemBridge CCCC1=C([C@@H](NC(=O)N1)c2ccc3c(c2)OCO3)C(=O)OCC 3.59 5
+574 ZINC04114722 Validated Specs Cc1c2c([nH]n1)OC(=C([C@H]2c3ccc(c(c3)OC)OCc4cccc(c4)F)C#N)N 4.42 10.5
+577 ZINC02767247 Validated ChemBridge Cc1oc(cc1)/C=C/C(=O)NCCNC(=O)/C=C/c2oc(cc2)C 3.97 5
+578 ZINC02770894 Validated ChemBridge C[C@@H]1CCC[C@H](N1C(=S)NCCCOC)C 2.80 5
+579 ZINC02771743 Validated ChemBridge CCSCCOC(=O)C1=C(NC2=C([C@H]1c3ccc4c(c3)OCO4)C(=O)C[C@H](C2)c5cccs5)C 5.00 10
+580 ZINC02774982 Validated Ambinter c1cc(c(cc1NC(=S)NC[C@@H]2CCCO2)Cl)OC(F)F 3.74 5
+581 ZINC02778109 Validated Ambinter Cc1c(c(n(n1)C)C)CN(C)C(=O)c2ccc(o2)Cn3c(c(c(n3)C)[N+](=O)[O‐])C 3.27 10
+582 ZINC02778289 Validated Ambinter Cc1c(cnn1C)CN(C)C(=O)[C@@H](C)n2c(c(c(n2)C(F)F)Br)C 3.12 5
+583 ZINC02778755 Validated ChemBridge c1cc2c(cc1Cl)sc(c2Cl)C(=O)N3CCN(CC3)C(=S)NC[C@H]4CCCO4 4.83 5
+585 ZINC02781205 Eliminatedc) Ambinter Cn1c(c(cn1)[N+](=O)[O‐])C(=O)N2CCN(CC2)C(=O)c3c(c4ccc(cc4s3)Cl)Cl 5
+586 ZINC13959247 Validated Vitas‐M Cc1c(cn(n1)C)c2cc(n3c(n2)cc(n3)C(=O)N4C[C@H](O[C@H](C4)C)C)C(F)(F)F 4.11 10
+588 ZINC02781951 Validated Vitas‐M Cc1c(cn(n1)C)c2cc(n3c(n2)c(cn3)C(=O)N(C4CCCCC4)C5CCCCC5)C(F)(F)F 5.81 10.5
+590 ZINC02782138 Validated Ambinter C[C@@H](C(=O)Nc1ccc2c(cc(=O)oc2c1)C(F)(F)F)n3c(c(c(n3)C(F)(F)F)Cl)C4CC4 6.63 5
+591 ZINC02776618 Validated ChemBridge Cc1c(c(nn1[C@@H](C)C(=O)N2CCOCC2)C(F)(F)F)Cl 3.08 5
+593 ZINC18162323 Validated Vitas‐M c1ccc(cc1)NC(=O)CN2[C@@H]3[C@@H](C(=O)N(C3=O)c4ccc(cc4Cl)Cl)N=N2 4.30 6.5
+594 ZINC02788109 Validated Ambinter CCn1ccc(n1)CN(C)C(=O)c2ccccc2COc3ccc(cc3F)F 4.43 5
+595 ZINC17077865 Validated Ambinter Cc1ccc(c(c1)OCc2ccc(o2)c3[n‐]n4cnc‐5n[nH+]cc5c4n3)Cl 4.40 10
+596 ZINC00612808 Validated ChemBridge c1ccc(cc1)OCc2nnc(n2N)SC(F)F 1.85 7.3
+597 ZINC02792340 Validated Vitas‐M CCn1c(nnc1SCC(=O)NCC=C)CCn2c(c(c(n2)C)Br)C 3.53 10.5
+600 ZINC00467599 Validated ChemBridge c1cc(oc1COc2c(c(cc(c2F)F)F)F)C(=O)NC3CC3 3.54 5
+601 ZINC02801329 Validated ChemBridge CCOCCOC(=O)C1=C(NC2=C([C@@H]1c3ccc(cc3)C)C(=O)CCC2)C 3.89 10
+602 ZINC02802395 Validated Vitas‐M C[C@@H](c1nc2c3cnn(c3ncn2n1)c4ccccc4)n5cc(cn5)[N+](=O)[O‐] 3.73 10.5
+603 ZINC02802544 Validated ChemBridge CCn1c(nnc1SCc2nc3c4cnn(c4ncn3n2)C)c5cc(n(n5)C)C(F)(F)F 3.85 7.3
+604 ZINC02803312 Validated ChemBridge CCOC(=O)N1CCN(CC1)C(=O)c2c3c(on2)CC[C@@H](C3)C(C)(C)C 4.52 5
+606 ZINC02803816 Validated ChemBridge Cc1cc(n2c(n1)cc(n2)c3nnc(o3)c4cccc(c4)C(F)(F)F)C(F)(F)F 4.92 10
+607 ZINC02803917 Validated Vitas‐M CCCOC(=O)c1c(c(sc1NC(=O)C2CCN(CC2)S(=O)(=O)C)C(=O)N)C 3.90 6.5
+608 ZINC01457198 Validated ChemBridge CC(C)COc1ccc(cc1)C(=O)N2[C@@](CC(=N2)C(F)F)(C(F)F)O 5.16 5
+611 ZINC02807193 Eliminatedd) Ambinter CC(C)(C)C1=C([C@]2(c3ccccc3NC2=O)C(=C(O1)N)C(=O)OCCOC)C(=O)OC 10
+612 ZINC02807448 Validated Specs CC(C)(C)c1cc(nc(n1)SCCNC(=O)C2CCCCC2)C(F)(F)F 5.77 6.5
+613 ZINC02807950 Validated Ambinter CCn1cc(cn1)c2nc3c4c(c(sc4ncn3n2)C)C 3.77 5
+615 ZINC02811943 Validated ChemBridge CCCNC(=O)N1CCN(CC1)C(=O)NCCC 1.04 10.5
+616 ZINC00284059 Validated ChemBridge c1ccc(cc1)C(=O)[C@H](NC(=O)c2ccccc2)Sc3ncccn3 3.62 5
+617 ZINC02815047 Validated ChemBridge Cc1cc(n2c(n1)nnc2SCc3ccc(cc3)C(=O)c4ccccc4)C 4.43 10.5
+618 ZINC01133653 Validated ChemBridge CC(=O)N[C@@H]1[C@H]([C@H]2[C@@H](COC(O2)(C)C)O[C@@H]1Oc3cccc4c3cccc4)O 3.80 6.5
+619 ZINC00627547 Validated Specs CC1=C(C(OCC)=O)C(C2=CC=CS2)N(C(/C(S4)=C/C3=CC=C(OC(C)=O)C=C3)=O)C4=N1 4.77 10.5
+620 ZINC02818256 Validated ChemBridge CCOC(=O)c1c(nc(s1)NCCNc2nc(c(s2)C(=O)OCC)C)C 4.66 10.5
+622 ZINC02828452 Validated ChemBridge CC(C)(C)N(C)C(=O)c1c(c(c(c(c1F)F)F)F)F 3.45 5
+623 ZINC09886132 Validated ChemBridge CCCC[C@H](CC)Cn1c2c(nc1SCC(=O)Nc3ccc(cc3)OC)n(c(=O)n(c2=O)C)C 5.51 5
+625 ZINC02832643 Validated ChemBridge c1cc2c(cc1Br)c(cn2CC(=O)N3CCCCCC3)C(=O)C(F)(F)F 4.62 5
+626 ZINC02835695 Validated ChemBridge c1ccc(cc1)S/C=C/C=C/S(=O)(=O)c2ccccc2 4.03 2
+628 ZINC04978849 Validated ChemBridge Cc1cc(c(s1)C)c2c3c([nH]n2)OC(=C([C@H]3c4ccc(cc4)NC(=O)C)C#N)N 4.26 9
+629 ZINC02841799 Validated ChemBridge Cc1c2c(n(n1)c3cccc(c3)Cl)OC(=C([C@@H]2c4ccc(cc4)NC(=O)C)C#N)N 4.93 7
+630 ZINC02842393 Validated ChemBridge c1cc(c(cc1)[N+](=O)[O‐])/C=N/c2ccc(cc2)/N=C/c3c(cccc3)[N+](=O)[O‐] 2.95 10
+631 ZINC02843413 Validated ChemBridge c1ccc(cc1)C(=O)[C@@H]2[C@H](C([C@@H]3N2c4ccccc4C=C3)(C#N)C#N)c5ccc(s5)Br 5.05 6.5
+632 ZINC02843454 Validated ChemBridge CN(CCO)S(=O)(=O)c1ccc2c3ccc(cc3oc(=O)c2c1)S(=O)(=O)N(C)CCO 3.20 5
+633 ZINC04713445 Validated ChemBridge CCOCc1c(cc(c(c1C)[C@H]2c3c(n[nH]c3OC(=C2C#N)N)C)C)C 4.09 10
+636 ZINC02846785 Validated ChemBridge Cc1ccccc1O[C@H]2[C@@H](N(C2=O)Cc3ccc4c(c3)OCO4)c5ccc6c(c5)OCO6 4.37 2
+637 ZINC00710587 Validated ChemDiv Cc1ccc(cc1Cl)NC(=O)CSC2=C([C@@H](C(=C(N2)C)C(=O)Nc3ccccc3OC)c4ccco4)C#N 6.27 5
+638 ZINC02848982 Replacedg) ChemBridge S1(=O)(=O)N=C(c2c1cccc2)NCCOC(=O)c1ccc(cc1)Br 6.5
+638 ZINC00055548 Validated ChemBridge c1cc(sc1)S(=O)(=O)/N=C\c2ccc(cc2)Br 2.14 5
+639 ZINC02850645 Validated ChemBridge Cc1ccc(cc1)SCC(=O)NCc2cccc(c2)CNC(=O)CSc3ccc(cc3)C 5.08 5
+640 ZINC02852778 Validated ChemBridge c1ccc2c(c1)C(=O)N(S2(=O)=O)CC(=O)Nc3ccc(cc3)S(=O)(=O)N4CCCCCC4 4.73 5
+641 ZINC01151809 Validated ChemBridge Cc1ccc(cc1)c2nc3n(n2)C(=O)C[C@@H](S3)c4cccc(c4)[N+](=O)[O‐] 4.49 5
+642 ZINC02860956 Validated ChemBridge CC(C)c1ccc(cc1)CNC(=O)C(=O)NCCCOC(C)C 4.57 5
+645 ZINC00054730 Validated Specs COc1cc(cc(c1OC)OC)C(=O)Nc2cccc(c2)C#N 3.44 5
+646 ZINC01183526 Validated ChemBridge O=C(/C(S4)=C/C3=C([N+]([O‐])=O)C=C(OC)C(OC)=C3)N(C4=NC2)CN2C1=CC=C(OCC)C=C1 4.93 10.5
+647 ZINC02864899 Validated ChemBridge Cc1ccccc1N[C@@H](c2ccccc2F)P(=O)(OC(C)C)OC(C)C 5.63 5
+648 ZINC00870523 Validated ChemBridge CCn1c(nnc1SCC(=O)Nc2ccc(cc2)C(=O)OC)c3ccccc3 4.24 7.3
+649 ZINC00705483 Validated ChemBridge CC1(CC2=C([C@H](C(=C(N2c3ccc(cc3)Cl)N)C#N)c4ccc(c(c4)OC)OC)C(=O)C1)C 4.34 5
+650 ZINC01158836 Validated ChemBridge c1ccc(cc1)CSCC(=O)Nc2ccc(cc2)c3ccc(cc3)[N+](=O)[O‐] 5.38 5
+651 ZINC00936899 Validated ChemBridge CCOc1ccc(cc1[C@H]2C3=C(CC(CC3=O)(C)C)Nc4n2ncn4)Br 3.85 7.3
+652 ZINC01071924 Validated ChemBridge CCOC(=O)CSc1nnnn1c2cccc3c2cccc3 3.80 5
+653 ZINC02029686 Validated Enamine C[C@@]12CC[C@@H](C1(C)C)C(=O)N(C2=O)CC#C 2.28 5
+654 ZINC02876196 Validated ChemBridge c1ccc(cc1)n2c(nnn2)OCCOc3nnnn3c4ccccc4 3.72 5
+655 ZINC02876525 Validated ChemBridge CS(=O)(=O)N(CC(=O)N1CCc2ccccc2C1)c3ccc(cc3)OCc4ccccc4 4.91 5
+656 ZINC02878840 Validated Specs CCCOc1ccc(cc1)N2C(=O)C[C@@H](C2=O)N3CCNC3=S 2.68 6.5
+657 ZINC02880705 Validated ChemBridge CS(=O)(=O)N(CC(=O)Nc1c(cccc1F)F)c2cc(c(cc2Cl)Cl)Cl 4.34 6.5
+658 ZINC02880840 Validated ChemBridge CC(C)N(Cc1nc(no1)c2ccccc2)C(=O)c3ccccc3CCc4ccccc4 5.98 5
+659 ZINC02880968 Validated ChemBridge c1ccc(c(c1)CN(C(=O)c2cccc(c2)[N+](=O)[O‐])N3C(=O)c4ccccc4C3=O)F 4.47 6.5
+660 ZINC17988913 Validated Vitas‐M c1cc(ccc1C(=O)N(Cc2ccc(c(c2)Cl)Cl)N3C(=O)[C@@H]4CCCC[C@H]4C3=O)Cl 5.51 6.5
+661 ZINC00581990 Validated ChemBridge C[C@H](C(=O)NC1CCCC1)N(c2ccc(cc2)Cl)S(=O)(=O)C 3.48 5
+662 ZINC00249645 Validated ChemBridge CC(=O)c1ccc(cc1NC(=O)c2ccccc2)C(C)(C)C 5.13 5
+664 ZINC02895418 Validated ChemBridge Cc1ccc(cc1)[C@@H](O)P(=O)(OCC(C)C)OCC(C)C 4.44 5
+665 ZINC02801315 Validated ChemBridge CCCCOC(=O)C1=C(NC2=C([C@H]1c3ccccc3OC)C(=O)CCC2)C 4.21 7.3
+666 ZINC06862609 Validated ChemBridge Cc1ccc2c(c1)c3c([nH]2)nc(nn3)N/N=C/C=C/c4ccco4 2.18 6.5
+667 ZINC02900677 Validated ChemBridge C1COCCN1P(=O)(OCC(F)(F)F)OCC(F)(F)F 2.69 5
+668 ZINC00438087 Validated ChemBridge c1cc(c(cc1)NC(=O)/C=C/c2occc2)NC(=O)/C=C/c3occc3 3.79 2
+669 ZINC06191766 Validated ChemBridge C/C(=C\c1ccco1)/[C@@H]2c3c([nH]nc3OC(=C2C#N)N)c4ccccc4 4.82 10.5
+670 ZINC00261113 Validated ChemBridge Cc1ccc(cc1)C(=O)Nc2cccc(c2)C(=O)OC 3.72 5
+671 ZINC02913482 Eliminated ChemBridge c1ccc(cc1)Cn2nc3c(=C(C#N)C#N)c4c(c(=C(C#N)C#N)c3n2)nn(n4)Cc5ccccc5 5
+672 ZINC02915570 Validated ChemDiv c12n(ncn2)C(C2=C(N1)CCCC2=O)c1c(cc(c(c1)OC)OC)OC 2.19 7.3
+673 ZINC02916360 Validated ChemDiv COc1ccc(cc1)[C@H]2C[C@H](Nc3n2ncn3)c4ccc(cc4)c5ccccc5 5.42 7.3
+676 ZINC02921992 Validated ChemBridge CCCCSC1=C([C@@H](C(=C(N1)C)C(=O)C)c2cccc(c2)[N+](=O)[O‐])C#N 4.44 10
+679 ZINC02923539 Validated ChemBridge c1ccc(cc1)OP(=O)(Oc2ccccc2)O[C@H]3CS(=O)(=O)C=C3 2.48 6.5
+681 ZINC02924873 Validated ChemBridge c1cc2c(cc1C(=O)c3ccc4c(c3)C(=O)N(C4=O)c5nccs5)C(=O)N(C2=O)c6nccs6 3.25 10
+682 ZINC02916975 Validated Enamine Cn1c(cc2c1nc3ccccn3c2=O)C(=O)N4CCC5(CC4)OCCO5 2.87 7.3
+683 ZINC00678637 Validated Specs CCOC(=O)C1=C(NC2=C([C@H]1c3ccccc3OC)C(=O)C[C@@H](C2)c4ccc(c(c4)OC)OC)C 3.79 10
+684 ZINC02927811 Validated Enamine c1cc(sc1)C(=O)Nc2ccc(cc2)S(=O)(=O)c3ccc(cc3)NC(=O)c4cccs4 4.46 5
+685 ZINC00195942 Validated ChemBridge COc1ccc(cc1)N2C(=O)Cc3ccccc3C2=O 2.56 5
+687 ZINC00867315 Validated Vitas‐M COc1ccc(cc1)[C@@H]2C3=C(C[C@@H](CC3=O)c4ccco4)Nc5ccccc5N2C(=O)C(F)(F)F 4.62 5
+688 ZINC02942705 Validated ChemBridge CCc1c(c(on1)c2c(c3ccccc3[nH]2)C(=O)C(=O)N(C)C)C 2.68 10
+689 ZINC02086643 Validated ChemBridge CCCC(=O)NC[C@@H](C)NC(=O)CCC 1.43 5
+690 ZINC02944542 Validated ChemDiv [C@]12([C@]3(OC4(CC(OC4)=O)CC3)[C@@H](CCC1[C@]1([C@@H](OC(OC1)(C)C)CC2)C)C)C 4.24 5
+691 ZINC00357428 Validated Enamine C[C@@H](c1ccccc1)NC(=O)C2CC2 1.85 5
+694 ZINC02959368 Validated ChemDiv CCOC(=O)C1CCN(CC1)C(=O)c2ccc(c(c2)/N=C\3/N[C@@H]4CS(=O)(=O)C[C@@H]4S3)Cl 2.96 10.5
+697 ZINC00442382 Validated ChemBridge Cc1cccc(c1C)NC(=O)Cc2ccc(cc2)Br 4.05 5
+698 ZINC02964424 Validated ChemDiv CC[C@H](C(=O)N1CCOCC1)SC2=Nc3ccccc3C4=N[C@H](C(=O)N42)Cc5ccccc5 3.95 10
+699 ZINC02964517 Validated ChemDiv CC[C@H](C(=O)Nc1ccc2c(c1)OCO2)SC3=Nc4ccccc4C5=N[C@H](C(=O)N53)CC(C)C 4.85 7.3
+700 ZINC01023102 Validated ChemDiv c1cc(cc(c1)N2C(=O)/C(=C/c3ccsc3)/SC2=S)C(F)(F)F 5.80 5
+702 ZINC00450333 Validated ChemBridge c1cc(ccc1/C=N/Oc2nc(nc(n2)N3CCOCC3)N)[N+](=O)[O‐] 3.18 10.5
+706 ZINC02972969 Validated Ambinter Cc1c(c(=O)n(n1C)c2ccccc2)Nc3c(nc4ccccc4n3)Nc5cccc(c5)C 5.96 5
+707 ZINC02973993 Validated ChemDiv c1ccc(cc1)C(=O)CSc2nc3cc(ccc3c(=O)n2Cc4ccco4)C(=O)N5CCC(CC5)C(=O)N 5.31 5
+708 ZINC01128992 Validated ChemBridge Cc1cc(nc2c1cccc2)SCC(=O)NCc3ccc4c(c3)OCO4 4.15 8
+709 ZINC02974296 Eliminatedc) ChemDiv CC[C@@H](C(=O)NCCOC)Sc1nc2cc3c(cc2c(=O)n1Cc4ccco4)OCO3 5
+710 ZINC02974884 Validated ChemBridge CCOc1cc(cc(c1OCC)OCC)C(=O)Nc2ccc(c(c2)OC)OC 4.11 5
+711 ZINC00373349 Validated ChemBridge COc1ccc(cc1COc2c(c(cc(c2F)F)F)F)C=O 4.24 5
+712 ZINC02975517 Validated ChemBridge CC[C@H](C)NC(=O)NC(C(F)(F)F)C(F)(F)F 2.84 5
+713 ZINC00352805 Validated ChemBridge CCc1ccccc1NC(=O)[C@@]23CC[C@@](C2(C)C)(C(=O)O3)C 3.31 5
+714 ZINC01187647 Validated ChemBridge Cc1ccc(cc1[N+](=O)[O‐])N2C(=O)[C@H]3[C@H](C2=O)C4(c5ccccc5C3c6c4cccc6)C(=O)C 4.74 5
+715 ZINC02992891 Validated ChemBridge CC1(Cc2c(cc(c(=O)n2c3ccccc3)C(=O)N[C@@H](CCSC)C(=O)OC)C(=O)C1)C 3.97 5
+716 ZINC02996352 Validated ChemBridge Cc1ccc(cc1C)C(=O)COc2cccc(c2)N3C(=O)[C@H]4[C@@H]5CC[C@@H](C5)[C@H]4C3=O 4.71 5
+717 ZINC02997580 Validated ChemBridge CCOc1cc(ccc1OCC#C)C2C3=C(CC(CC3=O)(C)C)OC4=C2C(=O)CC(C4)(C)C 4.93 5
+718 ZINC02998535 Validated ChemBridge C[C@@H](CCc1ccccc1)NC(=O)C(=O)NC[C@@H]2COc3ccccc3O2 4.80 6.5
+719 ZINC03004885 Validated Vitas‐M C[C@H](c1ccccc1)NC(=O)CN(C2CCCCC2)S(=O)(=O)c3ccccc3 4.90 5
+720 ZINC01163656 Validated ChemBridge CCN1C(=O)/C(=C/c2cc(n(c2C)c3ccc4c(c3)OCO4)C)/SC1=S 2.52 6.5
+721 ZINC03006765 Validated ChemDiv COc1cc2c(cc1OC)[C@H](N(CC2)C(=O)/C=C/c3ccccc3)COc4ccc(cc4)F 5.45 5
+722 ZINC03007724 Validated Life Chemicals CCN(c1ccccc1)C(=O)C(=O)c2cn(c3c2cccc3)CC(=O)N4CCOCC4 2.05 2
+724 ZINC03017635 Validated Enamine Cc1c(sc2c1c(=O)n(cn2)CC(=O)N[C@@H]3CCC[C@H]([C@H]3C)C)C 4.34 8
+726 ZINC00041369 Validated ChemBridge c1ccc2c(c1)c(c(s2)C(=O)NC[C@@H]3CCCO3)Cl 3.56 5
+729 ZINC00655766 Validated ChemBridge Cc1ccc(cc1)N(CC(=O)NC[C@@H]2CCCO2)S(=O)(=O)c3ccc(cc3)SC 4.30 5
+730 ZINC03033574 Validated ChemDiv CCOC(=O)C(C)(C)N(CCC(C)C)S(=O)(=O)c1ccc(cc1)[N+](=O)[O‐] 4.75 5
+731 ZINC03344047 Validated Enamine c1ccc(cc1)n2c(=O)c3ccccc3c(n2)C(=O)N4CCOCC4 2.47 7.3
+732 ZINC01083487 Validated ChemBridge CCCc1ccc(c(c1)OC)OCc2ccc(o2)C(=O)Nc3ccccc3C(=O)OC 5.89 5
+733 ZINC03040513 Validated ChemDiv c1cc(cc(c1)Br)[C@@H]2C(=O)N(CC(=O)N2CCC3=CCCCC3)C4CCCCC4 5.60 5
+737 ZINC03060391 Validated ChemDiv CC1CCN(CC1)S(=O)(=O)N2CCC(CC2)C(=O)N[C@@H](C)c3ccccc3 4.92 5
+738 ZINC00721789 Validated Vitas‐M c1ccc(cc1)CNC(=O)/C(=C/c2ccc(cc2)Cl)/NC(=O)c3ccccc3 4.41 5
+740 ZINC03105523 Validated Enamine c1ccc(c(c1)C(F)(F)F)NC(=O)C2CCC2 2.55 5
+741 ZINC02168379 Eliminated ChemBridge CCOP(=O)(C[C@H]1CO1)OCC 5
+742 ZINC03117530 Validated Chemical Block CC(=O)N1CC(=O)N([C@@H]1c2ccc(cc2Cl)Cl)OCOC 1.98 2
+745 ZINC03223956 Validated Enamine CCCCOc1ccc(cc1)C(=O)N(CCN2C(=O)c3ccccc3C2=O)c4cccc(c4)OC 5.35 5
+746 ZINC03232082 Validated Enamine COc1cc(ccc1OCc2ccccc2)/C=N\n3cnc4c(c3=O)c5c(s4)CCCC5 5.68 5
+748 ZINC02871160 Validated ChemBridge C[C@]12CC[C@@H]3[C@]1(CN([C@]2(C3)C#N)C(=O)c4cccc(c4)[N+](=O)[O‐])C 3.25 5
+749 ZINC01126453 Validated ChemBridge Cc1ccc(cc1)N2[C@H]3CS(=O)(=O)C[C@H]3N(C2=O)c4cccc(c4)Cl 3.56 5
+750 ZINC03241789 Validated Enamine Cc1cc(nc(n1)n2c3c(c(n2)C)[C@H]([C@@H]4C(=O)CC(C=C4N3)(C)C)c5ccco5)C 4.34 7.3
+751 ZINC12600540 Validated Enamine C[C@@H]1CCC[C@@H](N1C(=O)COC(=O)c2ccc3c(c2)S(=O)(=O)c4ccccc4C3=O)C 4.39 5
+752 ZINC03244173 Validated Enamine c1ccc(cc1)CC2CCN(CC2)C(=O)COC(=O)C3CCCCC3 4.98 5
+753 ZINC03245216 Validated Enamine Cn1c(c(c(=O)n(c1=O)C)C(=O)CSc2c(nc3ccccc3n2)SCC(=O)c4c(n(c(=O)n(c4=O)C)C)N)N 2.59 10.5
+754 ZINC03246579 Validated Enamine‐REAL COc1cc(ccc1OS(=O)(=O)c2ccc(c(c2)F)F)C=O 3.68 6.5
+755 ZINC00379555 Validated ChemBridge COc1ccc(cc1)S(=O)(=O)N(CC(=O)OC)c2ccccc2 3.43 5
+756 ZINC03248157 Validated Enamine c1ccc2c(c1)CCN2S(=O)(=O)c3cccc(c3)C(=O)OCC(=O)Nc4ccc(c(c4F)F)F 5.31 5
+757 ZINC12616401 Validated Enamine CC1(c2ccccc2N(C1=CC(=O)COC(=O)C(c3ccccc3)c4ccccc4)C)C 6.27 5
+758 ZINC00087965 Validated ChemBridge c1cc(cc(c1)[N+](=O)[O‐])c2nc(on2)CC3CCCCC3 5.17 5
+759 ZINC03257631 Validated Enamine Cc1ccc(cc1)S(=O)(=O)N(C)c2ccc(cc2)OCC(=O)N3CCN(CC3)c4ncccn4 4.46 10.5
+761 ZINC03264205 Validated Enamine C[C@H]1CCCN(C1)C(=O)COC(=O)COc2cc(c(cc2Cl)Cl)Cl 4.97 6.5
+762 ZINC03264497 Validated Enamine‐REAL COc1cc(cc(c1OC)OC)C(=O)COC(=O)CCCOc2ccc(cc2Cl)Cl 5.59 6.5
+763 ZINC03270888 Validated Enamine C[C@@H](COC)NC(=O)CCl 0.61 6.5
+764 ZINC03272267 Eliminatedb) Enamine NNC(=O)c1nc(ccc1Cl)NN 8
+765 ZINC03272800 Validated Enamine Cc1c(c2ccccc2[nH]1)C3=CN4CCS(=O)(=O)N=C4S3 1.56 2
+766 ZINC03273046 Validated Enamine Cc1c(c(no1)c2c(cccc2Cl)F)C(=O)OCC(=O)N3[C@@H](CCC[C@H]3C)C 4.38 5
+767 ZINC03274453 Eliminated Enamine‐REAL N1(C2=C(C(=O)N(C1=O)CC(=O)OCC(=O)Nc1cc3c(cc1)cccc3)N(Cc1ccccc1)C=N2)Cc1ccccc1 5
+770 ZINC05950541 Validated Enamine CC[C@H]1CS/C(=N\c2cccc(c2)C)/N1C(=O)CCN3C(=O)c4ccccc4C3=O 4.96 8
+771 ZINC03287055 Validated Enamine N#CC(=Cc1cc2c(cc1)OCO2)C(=O)NCc1cccc(c1)CNC(=O)C(=Cc1cc2c(cc1)OCO2)C#N 4.92 6.5
+775 ZINC03294668 Validated Enamine CCc1cc2c(s1)nc(n(c2=O)CC=C)SCC(=O)N3C[C@]4(C[C@@H]3CC(C4)(C)C)C 6.04 10.5
+776 ZINC03295804 Validated Enamine CCOC(=O)c1c([nH]c(c1C(=O)COC(=O)c2ccc(c(c2)S(=O)(=O)N3CCOCC3)F)C)C 3.63 5
+777 ZINC03297362 Validated Enamine COc1cc(ccc1OC(F)F)/C=C/C(=O)Nc2ccc(cc2)N3CCCCC3 5.36 8
+778 ZINC03299308 Validated Enamine CC[C@@H]1CCCCN1C(=O)CSc2nc(cc(n2)C)C 3.61 10.5
+779 ZINC03302230 Validated Enamine Cn1c(c(c(=O)n(c1=O)C)C(=O)COC(=O)c2cc(ccc2OC)S(=O)(=O)N3CCCCCC3)N 4.59 10.5
+780 ZINC12658225 Validated Enamine c1ccc\2c(c1)CN(/C2=N\C(=O)/C(=C/c3ccc4c(c3)OCO4)/C#N)c5cccc(c5)[N+](=O)[O‐] 5.40 10.5
+781 ZINC03303526 Validated Enamine Cc1ccc(s1)C(=O)NCC(=O)O[C@H](c2ccccc2)C(=O)Nc3ccc(c(c3)Cl)OC 4.54 2
+782 ZINC03307144 Validated Enamine CCN(CC)S(=O)(=O)c1ccc(cc1)C(=O)N2CCNC(=O)[C@H]2CC(=O)OC 1.14 2
+783 ZINC00107756 Validated Specs Cc1c(sc(n1)N)C(=O)OC 1.48 7.3
+785 ZINC03311872 Eliminated Enamine COC(=O)c1cc(cc(c1)[N+](=O)[O‐])C(=O)OCC(=O)NCc2ccc3c(c2)OCO3 6.5
+786 ZINC03314367 Validated Enamine CCOC(=O)c1c(c(c([nH]1)C)C(=O)OCC(=O)N2CCc3c2cccc3)C 4.47 6.5
+787 ZINC03315666 Validated Enamine CCCCNC(=S)N(C)/N=C/c1ccc(c(c1)OC)OCc2ccc(cc2)Cl 6.80 6.5
+789 ZINC03325954 Validated Enamine CCCN(CC1CC1)C(=S)Nc2cc(ccc2Cl)[N+](=O)[O‐] 4.10 5
+790 ZINC03328732 Validated Enamine c1ccc2c(c1)c(cc(n2)c3ccccc3Cl)C(=O)N4C(=O)c5cccc(c5C4=O)N 4.63 10.5
+791 ZINC03329891 Validated Enamine C[C@H]1Cc2ccccc2N1S(=O)(=O)c3cccc(c3)C(=O)OCc4cc(cc5c4OCOC5)[N+](=O)[O‐] 6.01 5
+792 ZINC03331703 Validated Enamine Cc1ccccc1N2C(=O)c3ccc(cc3C2=O)C(=O)OCC(=O)c4c(n(c(=O)n(c4=O)C)C)N 4.55 10.5
+793 ZINC00084666 Validated ChemBridge Cc1cc(ccc1NC(=S)NCCc2c[nH]c3c2cccc3)Cl 4.34 5
+794 ZINC03333036 Validated Enamine‐REAL c1ccc(cc1)c2csc3c2c(ncn3)N4CCC[C@@H](C4)CO 3.90 8
+795 ZINC03333428 Validated Enamine c1cc(ncc1C(=O)OCC(=O)N(C2CCCCC2)C3CCCCC3)Cl 4.99 5
+797 ZINC03339325 Validated Enamine CC(=O)N1Cc2ccccc2C[C@H]1C(=O)OCc3ccc(cc3)C#N 2.41 2
+798 ZINC03341032 Validated Enamine COc1cc2c3ccccc3oc2cc1NC(=O)COC(=O)c4cc(c(cc4[N+](=O)[O‐])OC)OC 5.04 5
+799 ZINC03341151 Validated Enamine Cc1ccc(c(c1)S(=O)(=O)N(C)c2ccc(cc2)OC(=O)c3ccc4c(c3)OCO4)C 5.87 5
+800 ZINC03342785 Validated Enamine c1cc(ccc1/C=C/C(=O)C(=C2SCS2)C(=O)N)Cl 3.64 6.5
+801 ZINC03343355 Eliminatedb) Enamine CCS(=O)(=O)N1Cc2ccccc2C[C@@H]1C(=O)OCC(=O)Nc3c(c(c(s3)C)C)C(=O)OC 2
+802 ZINC03343997 Validated Enamine Cc1ccc(c(c1)n2c(nnn2)SCC(=O)Nc3cc(cc(c3)C(=O)N)C(=O)N)OC 4.15 5
+803 ZINC08694104 Validated Enamine‐REAL CC(C)NC(N2CCN(CC2)S(=O)(c1cccc(C(F)(F)F)c1)=O)=S 3.90 5
+804 ZINC03348666 Validated Enamine c1ccc2c(c1)C(=O)N(C2=O)CCOC(=O)[C@@H]3C[C@@H](CN3S(=O)(=O)c4ccc(cc4)Cl)O 3.65 5
+805 ZINC03348865 Validated Enamine COC(=O)C(=O)C1=C(NC(=O)N[C@@H]1c2ccc(cc2)Cl)c3ccc(cc3)Cl 3.56 2
+806 ZINC03349177 Validated Enamine N1(N=NN=C1)CC(=O)N(CC1=CC=CS1)CC1=CC=CO1 4.33 5
+808 ZINC03355897 Validated Enamine CN(c1ccccc1)S(=O)(=O)c2ccc(cc2)C(=O)N3CCN(CC3)c4ccccc4C 5.31 10.5
+809 ZINC03359154 Validated Enamine CCOC(=O)c1c(c(c([nH]1)C)C(=O)OCC(=O)N(C)[C@@H]2CCS(=O)(=O)C2)C 3.35 5
+810 ZINC03359239 Validated Enamine CC(=O)c1ccc(cc1)c2ccc(o2)[C@@H]3[C@H](C(=C)NC(=S)N3)C(=O)OC(C)(C)C 4.53 5
+811 ZINC03360361 Validated Enamine Cn1c(c(c(=O)n(c1=O)C)C(=O)CSc2nnc(n2c3cccc(c3)C(F)(F)F)c4ccc(cc4)OC)N 4.89 10.5
+812 ZINC00269602 Validated ChemBridge CC(=O)NCCc1ccc(cc1)S(=O)(=O)N2CCOCC2 2.00 5
+813 ZINC03361997 Validated Enamine CCN([C@@H]1CCS(=O)(=O)C1)C(=O)COC(=O)/C(=C/c2ccc(cc2)Cl)/c3ccc(cc3)F 4.95 5
+814 ZINC03369081 Validated Enamine‐REAL Cc1ccc(c(c1)C)NC(=O)COC(=O)/C(=C/c2cccs2)/c3cccs3 3.83 6.5
+815 ZINC03372338 Validated Enamine CN(C)S(=O)(=O)c1cccc(c1)Cn2c3cc(ccc3n(c(=O)c2=O)Cc4ccccc4)C 3.37 2
+818 ZINC03378626 Validated Enamine COC(=O)CCNc1c2c3c(sc2nc(n1)c4cccnc4)CCCC3 4.69 10.5
+820 ZINC03379013 Validated Enamine CCCn1c(nnc1SCc2cc(=O)n3cc(ccc3n2)Br)c4cccc(c4)C 4.43 6.5
+821 ZINC03380609 Validated Enamine C[C@@H](C(=O)OCC(=O)/C=C/1\C(c2ccccc2N1C)(C)C)NC3=NS(=O)(=O)c4c3cccc4 4.21 2
+824 ZINC03391291 Validated Enamine CCOc1cc(cc(c1OCC(=O)N)Br)/C=N/n2cnc3c(c2=O)c(c(s3)C)C 4.98 10.5
+825 ZINC03392958 Validated Enamine‐REAL Cn1c(c(c(=O)n(c1=O)C)C(=O)COC(=O)C2CC2)N 2.17 10
+826 ZINC03393286 Validated Enamine‐REAL c1ccc2c(c1)cc3ccccc3c2C(=O)OCC(=O)N4CCCC4 4.09 5
+828 ZINC01095206 Validated ChemBridge c1cc(cc(c1)N/C=C/C(=O)c2ccc(cc2)Br)C(F)(F)F 5.65 5
+829 ZINC00194740 Validated ChemDiv C1(=C(NC(=C(C1c1occc1)C(=O)OC)C)C)C(=O)OCC 3.67 10
+830 ZINC03398050 Validated Enamine c1cc(ccc1/C=C/C(=O)OCC(=O)Nc2cc(ccc2N3CCOCC3)C(F)(F)F)F 5.08 2
+831 ZINC03400420 Validated Enamine N1(C2=C(N(C)N(C2=O)c2ccccc2)C)C(=C(C(=O)COC(=O)C2=C(c3c(cccc3)O2)COC(C)C)C=C1C)C 5.39 5
+832 ZINC00309276 Validated ChemBridge c1ccc2c(c1)OC[C@H](O2)C(=O)Nc3ccc4c(c3)OCO4 3.28 5
+833 ZINC03406061 Validated Ambinter COc1ccc(cc1)c2nnc(n2N)SCc3cc(=O)oc4c3c5ccccc5cc4 4.24 5
+834 ZINC03408496 Eliminated Enamine CCn1c(nnc1c1cccs1)SCC(=O)OCc1nnc(o1)c1ccc(cc1)[N+](=O)[O‐] 10
+835 ZINC03408794 Validated Enamine Cn1c(c(c(=O)n(c1=O)C)C(=O)CSc2nc3c(c4c(s3)CCC4)c(=O)n2Cc5ccccc5)N 5.21 10.5
+836 ZINC01145594 Validated ChemBridge CS(=O)(=O)N(CC(=O)Nc1ccccc1C(=O)NCc2ccco2)c3ccc(cc3)C 4.32 5
+837 ZINC06909379 Validated Enamine CCOC(/C=c(n(CC(N(C)C)=O)c2=O)/[S]/c2=C/c1c(F)cccc1F)=O 3.17 2
+838 ZINC02172513 Validated ChemBridge C[C@@]12CC[C@@](C1(C)C)(c3c2nc4ccccc4n3)C(=O)Nc5ccccc5C(F)(F)F 6.01 7.3
+839 ZINC16043969 Validated Enamine Cc1cc(c(n1Cc2ccc3c(c2)OCO3)C)C(=O)CN4C(=O)[C@@H]5CC=CC[C@H]5C4=O 4.38 5
+841 ZINC03424333 Validated Enamine‐REAL Cc1cc(c(n1c2cc(on2)C)C)C(=O)COC(=O)/C=C/c3cccc(c3)OC 5.20 6.5
+842 ZINC03426151 Validated Enamine Cc1cccc(c1)n2c(nnc2S[C@@H](C)C(=O)N)c3cccc(c3)S(=O)(=O)N(C)C 3.81 10.5
+843 ZINC03428301 Validated Enamine COc1cc(cc(c1OC)OC)/C=C/C(=O)N[C@H]2CCCc3c2cccc3 4.27 5
+845 ZINC03430391 Validated Enamine C[C@H]1CN(/C(=N/c2ccc(cc2)Cl)/S1)C(=O)c3csc4c3CCCC4 5.53 5
+846 ZINC03432297 Validated Enamine‐REAL S(=O)(=O)(N1CCCCC1)c1cccc(c1)C(=O)N1Cc2cc(c(cc2CC1)OC)OC 4.20 5
+847 ZINC03433862 Validated Enamine COc1ccc(cc1)N(CC(=O)N[C@@H]2CCS(=O)(=O)C2)S(=O)(=O)c3ccc(c(c3)Cl)C 3.32 2
+848 ZINC00088004 Validated ChemDiv CC1=NC(=C([C@H](C1C(=O)OC)c2cccc(c2)Cl)C(=O)OC)C 4.22 10
+849 ZINC03435204 Validated Enamine CC(C)[C@H](C(=O)NC(=O)N)Sc1nnc(n1C)C(F)(F)F 2.12 7.3
+850 ZINC03435356 Validated Enamine‐REAL CC(C)N(Cc1nnc(o1)c2ccc(cc2)Cl)C(=O)[C@@H]3COc4ccccc4O3 4.09 2
+851 ZINC00386075 Validated ChemBridge COc1ccc(cc1)C(=O)CSc2nnc(o2)c3ccccc3 4.15 5
+852 ZINC03439551 Validated Enamine Cc1cc(n2c(n1)nc(n2)SCC(=O)NCCNC(=O)CSc3nc4nc(cc(n4n3)C)C)C 0.82 10.5
+853 ZINC03439641 Validated Enamine Cn1c(=O)c(c(n(c1=O)Cc2ccccc2)N)C(=O)CN3CCSc4c3cccc4 4.71 10.5
+854 ZINC03442520 Validated Enamine‐REAL COc1c([N+]([O‐])=O)cc(C(OCC(NC2CCCCCCC2)=O)=O)cc1 4.28 5
+855 ZINC03442590 Validated Enamine c1c2c(cc3c1c(co3)CC(=O)O[C@H]4CCCCC4=O)CCC2 4.43 5
+856 ZINC03443597 Validated Enamine c1ccc2c(c1)C(=NS2(=O)=O)NCCCC(=O)OCc3cc(cc4c3OCOC4)[N+](=O)[O‐] 3.52 6.5
+857 ZINC03445303 Validated Enamine CCN(CC)S(=O)(=O)c1ccc2c(c1)n(nn2)OCC(=O)NC(c3ccccc3)c4ccccc4 4.49 5
+858 ZINC03446865 Validated Enamine‐REAL CC(=CC(=O)OCC(=O)Nc1ccc(cc1)S(=O)(=O)N(C)C)C 2.26 2
+860 ZINC03451147 Validated Enamine Cc1c(cccc1n2cnnn2)NC(=O)CC(c3ccccc3)c4ccccc4 3.20 2
+861 ZINC03452528 Validated Enamine‐REAL Cc1c(c(=O)n(n1C)c2ccccc2)NC(=O)COC(=O)c3cccnc3SC 3.63 8
+862 ZINC03454322 Validated Enamine Cc1ccc(cc1NC(=O)c2ccco2)C(=O)N3C(=O)c4cccc(c4C3=O)N 3.55 7
+863 ZINC03437972 Validated Enamine‐REAL CC(C)NC(=O)COC(=O)c1ccc(cc1)S(=O)(=O)N2CCCCCC2 3.78 5
+864 ZINC03462024 Validated Enamine CC(=O)N(c1ccccc1)c2nc(cs2)/C=C/C(=O)Nc3ccc4c(c3)OCO4 4.37 8
+865 ZINC03462074 Validated Enamine‐REAL CC(=O)Nc1cccc(c1)C(=O)OCC(=O)c2c(n(c(=O)n(c2=O)C)C)N 3.57 5
+866 ZINC00177764 Validated ChemBridge COc1cccc(c1)C(=O)N2CCC[C@@H](C2)c3ccccc3 4.04 5
+867 ZINC03466055 Validated Enamine O=C(CSc2n(Cc3ccccc3)c(c4occc4)nn2)N1C(C)CCCC1C 4.49 7.3
+869 ZINC03467496 Validated Enamine Cc1cc(n2c(n1)nc(n2)S[C@@H](C)C(=O)NCC(=O)Nc3ccc(c(c3F)F)F)C 2.18 2
+870 ZINC03467655 Validated Enamine c1cc(oc1)C(=O)N2CCN(CC2)C(=O)Cn3cc(cc(c3=O)Cl)C(F)(F)F 2.27 5
+871 ZINC03468009 Validated Enamine COc1cccc(c1)NC(=O)[C@@H](c2ccccc2)OC(=O)C3=COCCO3 3.81 5
+872 ZINC01144444 Validated ChemBridge CCOC(=O)c1ccc(cc1)CNC(=O)CSc2nc3c(c(c(s3)C)C)c(=O)n2CC=C 4.83 7.3
+873 ZINC03477306 Validated Enamine‐REAL c1ccc2c(c1)c(=O)n(c(n2)SCC(=O)NC3CCCCC3)c4ccc(cc4)Cl 4.92 6.5
+874 ZINC03477387 Validated Enamine Cc1cccc(c1NC(=O)CNC(=O)C2CCN(CC2)S(=O)(=O)c3cccc(c3Cl)Cl)C 3.41 2
+875 ZINC03483149 Validated Enamine‐REAL Cc1c(c([nH]c1C(=O)COC(=O)c2ccccc2NC(=O)c3ccco3)C)C(=O)C 4.73 5
+876 ZINC03488725 Eliminated Enamine c1cc(ccc1NC(=O)COC(=O)c2cc(cnc2)Br)N3CCOCC3 10
+878 ZINC03493467 Validated Enamine C[C@H](C(=O)NCC(=O)Nc1ccc(c(c1F)F)F)Sc2nnnn2c3ccc(cc3)Cl 4.52 5
+879 ZINC03495716 Validated Enamine‐REAL Cc1ccc(o1)/C=C/C(=O)N2CCN(CC2)c3ccc(cc3)C(=O)C 4.30 10
+881 ZINC03501591 Replacedg) Enamine‐REAL N(c1cc(cc(c1)OC)OC)C(=O)COC(=O)C=CC=CC 5
+881 ZINC00294824 Validated ChemBridge COc1ccc(cc1)C(=O)/C=C/C=C(Cl)Cl 4.40 5
+882 ZINC03505923 Validated Enamine CCC(CC)NC(=O)c1ccc(c(c1)S(=O)(=O)N2CCCC2)Cl 3.60 5
+883 ZINC03506974 Validated Enamine Cn1c(nnc1SCC(=O)NC2CCCCCC2)c3ccc(cc3)Cl 4.21 7.3
+885 ZINC03514660 Validated Enamine‐REAL O=C(NCc2cc(OCO3)c3cc2)C(C)SC4=Nc1c(C(N4c5ccc(F)cc5)=O)cccc1 4.63 5
+887 ZINC03517165 Replacedg) Enamine‐REAL N#CC(=Cc1cc(c(c(c1)Br)OCC)OC)C(=O)OCCOC 5
+887 ZINC01080980 Validated ChemBridge CCOC(=O)C1=C(NC(=O)C[C@@H]1c2cc(c(cc2Br)OC)OC)C 3.93 5
+888 ZINC03525006 Validated Enamine‐REAL Cc1ccc(cc1NC(=O)Cc2coc3c2cc4c(c3)CCC4)C(=O)OC 4.78 5
+889 ZINC03226116 Validated Enamine CCN(CC)S(=O)(=O)c1ccc(cc1)/C=C/C(=O)NC2CCCCC2 4.34 5
+890 ZINC01934341 Validated Enamine c1ccc(cc1)NC(=O)COC(=O)c2ccccc2F 3.18 5
+891 ZINC03531368 Validated Enamine‐REAL CCCCNc1ccccc1C(=O)OCC(=O)N[C@@H]2CCS(=O)(=O)C2 4.09 8
+892 ZINC06506520 Validated Enamine‐REAL Cc1cc(c(n1CCOC)C)C(=O)CSc2nnc3n2c4ccccc4[nH]3 3.45 10.5
+893 ZINC03533062 Validated Enamine‐REAL c1ccc(c(c1)C(=O)OCC#N)SCC(=O)N2CCCC2 2.57 6.5
+894 ZINC00753220 Validated ChemBridge COC(=O)c1ccc(c(c1)S(=O)(=O)N2CCCCC2)Br 3.66 5
+895 ZINC03534461 Validated Enamine‐REAL CCOc1ccc(cc1OCC)NC(=O)CN(C)C(=O)c2ccc(o2)C 2.09 10.5
+896 ZINC00718732 Validated ChemBridge Cc1ccc(cc1F)NC(=O)CSc2nnc(n2CC=C)c3cccs3 4.48 7.3
+897 ZINC03535886 Eliminated Enamine‐REAL CN(c1ccccc1)S(=O)(=O)c2ccc(c(c2)C(=O)OCc3nnc(o3)c4cccs4)C 5
+898 ZINC03536278 Validated Ambinter c1ccc(cc1)c2ccccc2NC(=O)CSc3nnc(n3N)c4ccc(cc4)OC(F)F 4.85 5
+899 ZINC03537495 Validated Enamine‐REAL C[C@@H](c1ccccc1)NC(=O)CSc2c3cnn(c3ncn2)c4ccccc4 4.73 10.5
+900 ZINC03538275 Validated Enamine CCOC(=O)N1CCN(CC1)C(=O)/C=C/c2ccc(c(c2)Cl)Cl 4.34 5
+901 ZINC03542431 Validated ChemBridge C[C@H]1C[C@@H](CN(C1)C(=O)CSc2nnc(n2C)c3ccccc3)C 3.68 10
+902 ZINC03542779 Validated Enamine‐REAL COc1cccc(c1)n2c(=O)c3ccccc3nc2SCc4cc(=O)n5ccsc5n4 3.56 2
+906 ZINC03545241 Validated Enamine CCc1ccccc1Nc2nc(nc(n2)N)CSc3nnc(n3N)c4ccc(cc4)OC(F)F 4.35 7.3
+908 ZINC03548479 Validated ChemBridge COc1ccc(cc1S(=O)(=O)N2CCOCC2)C(=O)Nc3cccc(c3)F 3.64 5
+909 ZINC03549977 Validated Enamine CCCCN1C(=O)c2ccc(cc2C1=O)C(=O)OCC(=O)N[C@H](C)C(C)C 3.62 5
+910 ZINC03552280 Validated Enamine CCCCOc1ccc(cc1OC)C(=O)Oc2ccc3c(c2)OCO3 4.77 5
+911 ZINC03554415 Validated Enamine Cc1ccc(cc1)CNC(=O)C2CCN(CC2)S(=O)(=O)c3ccc4c(c3)OCCCO4 4.01 5
+914 ZINC03556440 Validated Enamine‐REAL CCN(c1ccccc1)C(=O)[C@@H](C)OC(=O)c2cc(c(c(c2)OC)OC)OC 3.40 10.5
+915 ZINC03409607 Validated Enamine‐REAL n1(c(nnc1c1ccc(cc1)F)SC(C(=O)N)C)c1ccccc1 3.38 7.3
+916 ZINC03557230 Validated Enamine c1ccc2cc(ccc2c1)OCC(=O)N3CCN(CC3)S(=O)(=O)c4ccc5c(c4)OCCO5 4.47 5
+919 ZINC03560235 Validated Enamine Cc1ccc(cc1[N+](=O)[O‐])C(=O)NCCc2ccc3c(c2)OCCO3 3.28 2
+921 ZINC00527717 Validated ChemBridge C[C@H](C(=O)Nc1ccc(cc1)OC(F)(F)F)Oc2ccccc2 4.77 5
+922 ZINC03562644 Validated Ambinter CCOc1ccc(cc1)n2c(=O)c3c4c(sc3nc2SCC(=O)NC5CC5)CCC4 4.64 5
+923 ZINC03105259 Validated ChemBridge COCCCNC(=O)c1ccccc1C(F)(F)F 2.00 5
+924 ZINC03563653 Validated Enamine‐REAL c1ccc2c(c1)c(=O)n(c(n2)SCC#N)c3ccc(cc3)OC(F)F 4.17 5
+925 ZINC03564262 Validated Enamine‐REAL Cc1c(c(on1)C)C(=O)O[C@@H](C)C(=O)Nc2ccc3c(c2)OCCO3 2.78 5
+926 ZINC03571597 Replacede) Enamine‐REAL [N+](=O)(C1=CC=C(O1)C(=O)OCc1c(ccc(c1)C(=O)C)OC)[O‐] 5
+926 ZINC03263073 Validated Enamine CC(=O)c1ccc(c(c1)COC(=O)c2cc(ccc2Cl)Cl)OC 4.45 5
+928 ZINC03573232 Validated Enamine‐REAL Cc1cc(c(c(c1)C)NC(=O)CSc2nnc(n2N)c3ccc(cc3)OC(F)F)C 4.41 10
+929 ZINC00940909 Validated ChemBridge COC(=O)c1cccc(c1)NC(=O)CCN2C(=O)c3ccccc3C2=O 3.39 5
+930 ZINC03575851 Validated Enamine C[C@H]1CCCC[C@@H]1NC(=O)COc2c3ccccc3ncn2 3.11 6.5
+931 ZINC03575938 Validated Enamine C[C@@H]1CCCC[C@H]1NC(=O)COC(=O)C2=COCCO2 2.48 5
+932 ZINC01049264 Validated ChemBridge CN(Cc1ccccc1)S(=O)(=O)c2ccc(cc2)NC(=O)Cc3ccc(cc3)F 5.14 5
+934 ZINC00848943 Validated Specs CN(c1ccc(cc1)OC(=O)c2ccccc2)C3=NS(=O)(=O)c4c3cccc4 4.26 5
+936 ZINC03587776 Validated Enamine‐REAL Cc1c(c([nH]c1C(=O)COC(=O)c2cc(cc(c2)[N+](=O)[O‐])C(=O)OC)C)C(=O)C 3.82 5
+937 ZINC03587920 Validated Enamine CC(C)N(C(C)C)C(=O)CSc1nnc(s1)NCc2ccccc2 4.09 7.3
+938 ZINC03059500 Validated ChemDiv c1ccc(cc1)/C=C\2/C(=O)Nc3cc(ccc3S2)C(=O)NC4CC4 4.32 5
+940 ZINC01049570 Validated ChemBridge COc1ccc(cc1Cl)S(=O)(=O)N(CC(=O)Nc2cccc(c2)[N+](=O)[O‐])C3CCCCC3 5.48 5
+941 ZINC03590540 Validated Enamine c1ccc(cc1)CCn2c(nnc2SCC(=O)N3CCOCC3)c4ccccc4F 3.79 7.3
+942 ZINC00093288 Validated ChemBridge CCOC(=O)c1ccc(cc1)NCc2c(c([nH]c2C)C(=O)OCC)C 5.09 5
+943 ZINC00540009 Validated ChemBridge c1nc(c2c3c(sc2n1)CCCC3)NC4CCCC4 4.17 10
+944 ZINC03599705 Validated Ambinter CCC[C@@H](C)NC(=O)COc1c2c3c(sc2ncn1)C[C@@H](CC3)C 4.55 10
+945 ZINC00780911 Validated Enamine c1cc(ccc1NC(=O)CSc2c3c4c(sc3ncn2)CCC4)F 4.69 7.3
+947 ZINC00691906 Validated ChemBridge Cc1cc(ccc1NC(=O)CSc2nnc(s2)N)Br 2.69 7.3
+951 ZINC03606457 Validated Enamine Cc1cc(c(n1c2ccc(cc2)C(=O)OC)C)C(=O)COc3cccc(c3)n4cnnn4 4.77 5
+953 ZINC03614139 Validated Enamine‐REAL Cc1ccc(cc1)OCCC(=O)N2CCN(CC2)S(=O)(=O)c3cccs3 2.98 2
+954 ZINC03614715 Validated Vitas‐M CN([C@@H](c1ccc(cc1)OC)C(=O)Nc2ccc3c(c2)OCCO3)C(=O)Cc4c[nH]c5c4cccc5 3.76 2
+955 ZINC03615275 Validated Ambinter CN(C)S(=O)(=O)c1cccc(c1)C(=O)NCCc2ccc(cc2Cl)Cl 4.48 10
+957 ZINC03620303 Validated ChemDiv Cc1cc2ccccc2c(=O)n1CC(=O)NCC(=O)N3CCN(CC3)c4cccc(c4)Cl 4.45 7.3
+958 ZINC03620479 Validated Enamine‐REAL c1cc(cc(c1)S(=O)(=O)N2CCCC2)C(=O)OCc3c(cccc3Cl)F 4.22 2
+959 ZINC00717796 Validated ChemDiv Cn1c2c(c(=O)n(c1=O)C)n(c(n2)N3CCCCCC3)CC(=O)c4ccc(cc4)OC 4.42 10
+960 ZINC03621212 Validated Enamine COc1cc(ccc1OC(=O)/C=C/c2cccc(c2)F)C#N 4.46 5
+961 ZINC03621394 Validated ChemDiv CN1[C@H]([C@@H](c2cc(c(cc2C1=O)OC)OC)C(=O)Nc3ccc(cc3F)F)c4ccc(c(c4)OC)OC 3.66 5
+962 ZINC03624168 Validated ChemDiv COc1ccc(cc1OC)NC(=O)c2c(c3c(c(sc3s2)C(=O)Nc4ccc(c(c4)OC)OC)N)N 4.88 10
+967 ZINC03639569 Validated Vitas‐M CC1=C([C@H](C2=C(N1)C[C@H](CC2=O)c3cccs3)c4ccc(c(c4)OC)OC)C(=O)OCCOC(C)C 4.45 10
+968 ZINC09553985 Validated Chemical Block Cc2cc1c(=O)c(C5C3=C(NC(C)=C5C(OCCOC)=O)CC(c4cc(OC)ccc4)CC3=O)coc1cc2 5.23 10.5
+969 ZINC03640152 Validated Vitas‐M CCSCCOC(=O)C1=C(NC2=C([C@@H]1c3ccc(cc3)C(=O)OC)C(=O)C[C@H](C2)c4cccs4)C 5.24 10
+973 ZINC03646242 Validated Enamine CCc1c(c(nc2c1C(=O)CC(C2)(C)C)SCC(=O)N3CCc4cc(c(cc4C3)OC)OC)C#N 4.89 5
+975 ZINC02617458 Validated Enamine CN(C)S(=O)(=O)c1ccc(cc1)C(=O)OC2CCCCC2 4.27 5
+978 ZINC06761428 Validated Vitas‐M CC(=O)Nc1ccc(cc1)/N=C/c2c(=O)c3ccccc3oc2[O‐] 3.64 5
+984 ZINC03661324 Validated ChemDiv COc1ccc(cc1)[C@@H]2[C@@H](c3ccccc3C(=O)N2Cc4ccc(cc4)F)C(=O)N5CCCCCC5 5.01 5
+986 ZINC01024189 Validated Specs Cc1cccc(c1)NC(=O)C[C@H]2C(=O)N(/C(=N/c3c(cccc3C)C)/S2)C 4.75 6.5
+987 ZINC00145605 Validated ChemBridge CCOc1ccccc1OCC(=O)Nc2ccc3ccccc3c2 4.73 5
+988 ZINC02908623 Validated ChemDiv CCOc1ccc(cc1)NC(=O)CSc2nc3ccsc3c(=O)n2c4ccccc4 4.33 5
+990 ZINC03672564 Validated ChemBridge OCC#CC(c2ccc(F)cc2)(O)c1ccc(F)cc1 3.61 5
+991 ZINC03672819 Validated Vitas‐M CC/N=C\1/N(C(=O)/C(=C/c2cn(c3c2cccc3)CC(=O)Nc4cccc(c4)C)/S1)CC 5.80 10
+993 ZINC03766933 Validated Specs c1ccc2c(c1)nc(n2C[C@@H](CO)O)SCCSc3nc4ccccc4n3C[C@@H](CO)O 3.29 10.5
+994 ZINC00404391 Validated Vitas‐M CCOC(=O)c1ccc(cc1)C#N 1.87 5
+995 ZINC00088069 Validated ChemBridge C=CCn(c2=O)c(SCc3ccccc3)nc1c2cccc1 5.11 7.3

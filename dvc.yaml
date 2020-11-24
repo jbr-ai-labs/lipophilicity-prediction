@@ -1,0 +1,43 @@
+stages:
+  preparation:
+    cmd: ~/anaconda3/envs/chemprop/bin/python ./scripts/SOTA/dmpnn/train_val_data_preparation.py
+    deps:
+    - ./data/3_final_data/split_data/logp_wo_logp_json_wo_averaging_train.csv
+    - ./data/3_final_data/split_data/logp_wo_logp_json_wo_averaging_validation.csv
+    - ./data/3_final_data/split_data/logd_Lip_wo_averaging_train.csv
+    - ./data/3_final_data/split_data/logd_Lip_wo_averaging_validation.csv
+    - ./data/3_final_data/split_data/logp_wo_logp_json_logd_Lip_wo_averaging_train.csv
+    - ./data/3_final_data/split_data/logp_wo_logp_json_logd_Lip_wo_averaging_validation.csv
+    - ./scripts/SOTA/dmpnn/train_val_data_preparation.py
+    params:
+    - split_file_prefix
+  dmpnn_train:
+    cmd: ~/anaconda3/envs/chemprop/bin/python ./scripts/SOTA/dmpnn/train.py
+      --dataset_type regression --num_workers 4 --config_path_yaml ./params.yaml
+    deps:
+    - ./data/3_final_data/split_data/logd_Lip_wo_averaging_test.csv
+    - ./data/3_final_data/split_data/logp_wo_logp_json_wo_averaging_test.csv
+    - ./data/3_final_data/split_data/logp_wo_logp_json_logd_Lip_wo_averaging_test.csv
+    - ./data/raw/baselines/dmpnn/RDKitBestfeatures.txt
+    - ./scripts/SOTA/dmpnn/
+    params:
+    - data_path
+    - depth
+    - epochs
+    - features_generator
+    - file_prefix
+    - no_features_scaling
+    - num_folds
+    - save_dir
+    - separate_test_path
+    - split_type
+    - target_columns
+    - additional_encoder
+    - substructures_hidden_size
+    - hidden_size
+    outs:
+    - ./data/raw/baselines/dmpnn/logs/exp_221/folds
+
+    metrics:
+    - ./data/raw/baselines/dmpnn/logs/exp_221/final_scores.json:
+        cache: false

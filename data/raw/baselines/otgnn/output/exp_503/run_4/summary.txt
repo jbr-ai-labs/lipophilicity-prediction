@@ -1,0 +1,7 @@
+mse: 0.232
+nce_reg: -0.693
+loss: 0.239
+prediction_mean: 2.061
+prediction_std: 1.803
+R2: 0.931
+rmse: 0.482

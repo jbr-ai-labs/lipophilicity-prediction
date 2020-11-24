@@ -1,0 +1,6 @@
+Num epochs trained: 149
+val_rmse: [0.46334733], mean: 0.463, std: 0.000
+test_rmse: [0.48895377], mean: 0.489, std: 0.000
+best_epoch: [116], mean: 116.000, std: 0.000
+train_last: [0.29074198], mean: 0.291, std: 0.000
+train_best: [0.31929216], mean: 0.319, std: 0.000

@@ -1,0 +1,22 @@
+|    |   feature importance | feature name     |
+|---:|---------------------:|:-----------------|
+|  0 |           0.340836   | MolLogP          |
+|  1 |           0.0470829  | fr_sulfonamd     |
+|  2 |           0.0296889  | fr_Al_COO        |
+|  3 |           0.0168471  | fr_NH2           |
+|  4 |           0.0151696  | NumHDonors       |
+|  5 |           0.014645   | VSA_EState9      |
+|  6 |           0.0137043  | MinPartialCharge |
+|  7 |           0.0132109  | fr_ester         |
+|  8 |           0.0131371  | fr_phos_acid     |
+|  9 |           0.0120727  | fr_hdrzone       |
+| 10 |           0.0119326  | fr_Ar_OH         |
+| 11 |           0.0116285  | fr_hdrzine       |
+| 12 |           0.0111126  | fr_ether         |
+| 13 |           0.0110822  | NumHeteroatoms   |
+| 14 |           0.0109648  | fr_amidine       |
+| 15 |           0.00968864 | fr_imidazole     |
+| 16 |           0.00928853 | fr_guanido       |
+| 17 |           0.00839196 | PEOE_VSA6        |
+| 18 |           0.00835953 | Chi4v            |
+| 19 |           0.00806703 | NHOHCount        |

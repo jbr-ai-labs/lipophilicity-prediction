@@ -1,0 +1,21 @@
+,feature importance,feature name
+2,0.13753037,2_tree_feats
+17,0.11225141,17_tree_feats
+22,0.061198685,22_tree_feats
+27,0.040304124,27_tree_feats
+21,0.03701255,21_tree_feats
+10,0.029927589,10_tree_feats
+16,0.026088234,16_tree_feats
+32,0.02460154,32_graph_feats
+3,0.024430856,3_tree_feats
+24,0.02399634,24_tree_feats
+42,0.021596342,42_graph_feats
+26,0.021326277,26_tree_feats
+1,0.021274898,1_tree_feats
+19,0.018548844,19_tree_feats
+15,0.017468281,15_tree_feats
+29,0.01733831,29_graph_feats
+36,0.015398215,36_graph_feats
+8,0.014655213,8_tree_feats
+12,0.014508405,12_tree_feats
+13,0.013611487,13_tree_feats
