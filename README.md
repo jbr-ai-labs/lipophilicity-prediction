@@ -90,7 +90,7 @@ The first step is common for both runs.
 1. Set `params.yaml`
 
   ```
-  additional_encoder: True #set StructGNN architecture
+  additional_encoder: True # set StructGNN architecture
   
   file_prefix: <name of dataset without format and train/test/val prefix>
   split_file_prefix: <name of dataset without format and train/test/val prefix for `train_val_data_preparation.py` script>
@@ -113,7 +113,7 @@ The first step is common for both runs.
   num_folds: <number of folds>
  
   substructures_hidden_size: 300
-  hidden_size: 800
+  hidden_size: 800 # dmpnn ffn hidden size
   ```
 A full list of available arguments can be found in [dmpnn/chemprop/args.py](scripts/SOTA/dmpnn/chemprop/args.py)
 
