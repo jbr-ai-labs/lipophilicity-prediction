@@ -27,7 +27,21 @@ The following datasets have been used:
 | logd_Lip_wo_averaging | 4166 | Merged datasets w/o strange (very soluble) molecules and standardized SMILES. Between duplicated logD for one SMILES the most common value was chosen | Lipophilicity |
 | logp_wo_logp_json_logd_Lip_wo_averaging | 17603 | Merged LogP and LogD datasets, 251 molecules have logP and logD values | logp_wo_logp_json_wo_averaging,<br/>logd_Lip_wo_averaging |
 
+## Paper
+
 For a detailed description of StructGNN we refer the reader to the paper ["Lipophilicity Prediction with Multitask Learning and Molecular Substructures Representation"](https://arxiv.org/abs/2011.12117).
+
+If you wish to cite this code, please do it as follows:
+```
+@misc{lukashina2020lipophilicity,
+      title={Lipophilicity Prediction with Multitask Learning and Molecular Substructures Representation}, 
+      author={Nina Lukashina and Alisa Alenicheva and Elizaveta Vlasova and Artem Kondiukov and Aigul Khakimova and Emil Magerramov and Nikita Churikov and Aleksei Shpilman},
+      year={2020},
+      eprint={2011.12117},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
 
 *Machine Learning for Molecules Workshop @ NeurIPS 2020*
 
