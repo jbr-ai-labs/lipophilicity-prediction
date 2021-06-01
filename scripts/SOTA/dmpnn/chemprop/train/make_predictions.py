@@ -9,7 +9,7 @@ currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentfram
 parentdir = os.path.dirname(currentdir)
 sys.path.insert(0,parentdir) 
 
-from .predict import predict
+from predict import predict
 from args import PredictArgs, TrainArgs
 from data import get_data, get_data_from_smiles, MoleculeDataLoader, MoleculeDataset
 from utils import load_args, load_checkpoint, load_scalers, makedirs, timeit
@@ -61,7 +61,8 @@ def make_predictions(args: PredictArgs, smiles: List[str] = None) -> List[List[O
             target_columns=[],
             ignore_columns=[],
             skip_invalid_smiles=False,
-            store_row=True
+            store_row=True,
+            features_generator=args.features_generator
         )
 
     print('Validating SMILES')
@@ -101,7 +102,7 @@ def make_predictions(args: PredictArgs, smiles: List[str] = None) -> List[List[O
     for checkpoint_path in tqdm(args.checkpoint_paths, total=len(args.checkpoint_paths)):
         # Load model
         model = load_checkpoint(checkpoint_path, device=args.device)
-        model_preds = predict(
+        model_preds = predict(args=args,
             model=model,
             data_loader=test_data_loader,
             scaler=scaler
@@ -113,9 +114,11 @@ def make_predictions(args: PredictArgs, smiles: List[str] = None) -> List[List[O
     avg_preds = avg_preds.tolist()
 
     # Save predictions
-    print(f'Saving predictions to {args.preds_path}')
+    if args.preds_path is not None:
+        print(f'Saving predictions to {args.preds_path}')
+
+        makedirs(args.preds_path, isfile=True)
     assert len(test_data) == len(avg_preds)
-    makedirs(args.preds_path, isfile=True)
 
     # Get prediction column names
     if args.dataset_type == 'multiclass':
@@ -132,12 +135,13 @@ def make_predictions(args: PredictArgs, smiles: List[str] = None) -> List[List[O
             datapoint.row[pred_name] = pred
 
     # Save
-    with open(args.preds_path, 'w') as f:
-        writer = csv.DictWriter(f, fieldnames=full_data[0].row.keys())
-        writer.writeheader()
+    if args.preds_path is not None:
+        with open(args.preds_path, 'w') as f:
+            writer = csv.DictWriter(f, fieldnames=full_data[0].row.keys())
+            writer.writeheader()
 
-        for datapoint in full_data:
-            writer.writerow(datapoint.row)
+            for datapoint in full_data:
+                writer.writerow(datapoint.row)
 
     return avg_preds
 

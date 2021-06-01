@@ -17,7 +17,7 @@ Lipophilicity is one of the factors determining the permeability of the cell mem
 
 The figure below shows the overall network architecture of our method named StructGNN.
 
-![product-screenshot](imgs/WorkshopModelBW.png)
+![product-screenshot](https://raw.githubusercontent.com/jbr-ai-labs/lipophilicity-prediction/main/imgs/WorkshopModelBW.png)
 
 The following datasets have been used: 
 
@@ -26,6 +26,14 @@ The following datasets have been used:
 | logp_wo_logp_json_wo_averaging | 13688 | All logP datasets except logp.json | Diverse1KDataset.csv, NCIDataset.csv, ochem_full.csv, physprop.csv |
 | logd_Lip_wo_averaging | 4166 | Merged datasets w/o strange (very soluble) molecules and standardized SMILES. Between duplicated logD for one SMILES the most common value was chosen | Lipophilicity |
 | logp_wo_logp_json_logd_Lip_wo_averaging | 17603 | Merged LogP and LogD datasets, 251 molecules have logP and logD values | logp_wo_logp_json_wo_averaging,<br/>logd_Lip_wo_averaging |
+
+- Units
+    * LogP: unitless
+    * LogD: unitless
+- Description:
+    * LogP: <img src="https://render.githubusercontent.com/render/math?math=log_{10}\frac{Concentration_{in\ octanol}^{un-ionized}}{Concentration_{in\ water}^{un-ionized}}">
+    * LogD: <img src="https://render.githubusercontent.com/render/math?math=log_{10}\frac{\sum_{ionized\ forms}Concentration_{in\ octanol}^{ionized}}{\sum_{ionized\ forms}Concentration_{in\ water}^{ionized}}">
+
 
 ## Paper
 
@@ -53,25 +61,10 @@ If you wish to cite this code, please do it as follows:
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
   * [Training](#training)
-* [Baselines](#baselines)
-  * [DMPNN](#dmpnn)
-  * [OTGNN](#otgnn)
-  * [JtVAE](#jtvae)
 
 
-<!-- ABOUT THE PROJECT -->
-## Structure of this repository
-
-There are 3 main folders:
-
-1. [Jupyter Notebooks with EDA, data preprocessing, predictions analysis](notebooks/)
-2. [Data files](data/)
-3. [Scripts for models training](scripts/SOTA)
 
 This repository was built with the help of
-
-* [OTGNN original repo](https://github.com/benatorc/OTGNN)
-* [Junction Tree original repo](https://github.com/benatorc/OTGNN)
 * [DMPNN original repo](https://github.com/chemprop/chemprop)
 
 <!-- GETTING STARTED -->
@@ -89,143 +82,30 @@ To use `chemprop` with GPUs, you will need:
 ### Installation
 
 1. `git clone https://github.com/jbr-ai-labs/lipophilicity-prediction.git`
-2. `cd scripts/SOTA/dmpnn`
-3. `conda env create -f environment.yml`
-4. `conda activate chemprop`
-5. `pip install -e .`
+2. `git checkout -b docker_evaluation`
+3. `docker build -t lipophilicity-prediction .`
+4. `docker run lipophilicity-prediction`
+
 
 
 <!-- USAGE EXAMPLES -->
-### Training
+### Evaluation
 
-To train the model you can either use existing DVC pipeline or run training manually.
-
-The first step is common for both runs.
-1. Set `params.yaml`
-
-  ```
-  additional_encoder: True # set StructGNN architecture
-  
-  file_prefix: <name of dataset without format and train/test/val prefix>
-  split_file_prefix: <name of dataset without format and train/test/val prefix for `train_val_data_preparation.py` script>
-  input_path: <path to split dataset>
-  data_path: <path to train_val dataset>
-  separate_test_path: <path to test dataset>
-  save_dir: <path to experiments logs>
- 
- 
-  epochs: <number of training epochs>
-  patience: <early stopping patience>
-  delta: <early stopping delta>
- 
-  features_generator: [rdkit_wo_fragments_and_counts]
-  no_features_scaling: True
-  
-  target_columns: <name of target column>
- 
-  split_type: k-fold
-  num_folds: <number of folds>
- 
-  substructures_hidden_size: 300
-  hidden_size: 800 # dmpnn ffn hidden size
-  ```
-A full list of available arguments can be found in [dmpnn/chemprop/args.py](scripts/SOTA/dmpnn/chemprop/args.py)
-
-#### Manual run
-
-2. Run `python ./scripts/SOTA/dmpnn/train_val_data_preparation.py` - to create dataset for cross-validation procedure
-3. Run `python ./scripts/SOTA/dmpnn/train.py --dataset_type regression --config_path_yaml ./params.yaml` - to train model
-
-#### DVC run
-
-2. Run `dvc repro` command
-
-## Baselines
-
-### DMPNN
-
-Article - [Analyzing Learned Molecular Representations for Property Prediction](https://arxiv.org/pdf/1904.01561v5.pdf)
-
-Original Github Repo - https://github.com/chemprop/chemprop
-
-#### Requirements
-
-All the requirements are the same as for StructGNN
-
-#### Training
-
-The training procedure is the same as [StructGNN](#StructGNN), but set `additional_encoder: False` in `params.yaml`
-
-### OTGNN
-
-Article - [Optimal Transport Graph Neural Networks](https://arxiv.org/pdf/2006.04804v2.pdf)
-
-Original Github Repo - https://github.com/benatorc/OTGNN
-
-#### Requirements
-
-``` 
-conda create -n mol_ot python=3.6.8
-sudo apt-get install libxrender1
-
-conda install pytorch torchvision -c pytorch
-conda install -c rdkit rdkit
-conda install -c conda-forge pot
-conda install -c anaconda scikit-learn
-conda install -c conda-forge matplotlib
-conda install -c conda-forge tqdm
-conda install -c conda-forge tensorboardx
+To evaluate the pretrained model `model.pt` run the following command:
+```
+docker run lipophilicity-prediction /usr/local/envs/lipophilicity-prediction36/bin/python predict_smi.py --test_path ./test.smi --checkpoint_path ./model.pt --features_generator rdkit_wo_fragments_and_counts --additional_encoder --no_features_scaling
 ```
 
-#### Data
+where `test.smi` - file with molecules for predictions.
+Each row of `test.smi` is smiles and molecule's name, separated with ' '.
 
-Prepara data and splits with [1_data_preparation.ipynb notebook](notebooks/models_postprocessing/otgnn/1_data_preparation.ipynb)
+Script produces file `predictions.json` with format `List[ResDict]`.
 
-#### Training
-
-Running cross-validation:
-
-```cd ./scripts/SOTA/otgnn/; python train_proto.py -data logp_wo_json -output_dir output/exp_200 -lr 5e-4 -n_splits 5 -n_epochs 100 -n_hidden 50 -n_ffn_hidden 100 -batch_size 16 -n_pc 20 -pc_size 10 -pc_hidden 5 -distance_metric wasserstein -separate_lr -lr_pc 5e-3 -opt_method emd -mult_num_atoms -nce_coef 0.01```
-
-### JtVAE
-
-Article - [Junction Tree Variational Autoencoder for Molecular Graph Generation](https://arxiv.org/pdf/1802.04364%5D)
-
-Original Github Repo - https://github.com/wengong-jin/icml18-jtnn
-
-#### Requirements
-
-``` 
-conda create -n jtree python=2.7
-
-conda install pytorch torchvision -c pytorch
-conda install -c rdkit rdkit
-conda install -c anaconda scikit-learn
-conda install -c conda-forge matplotlib
-conda install -c conda-forge tqdm
-conda install -c conda-forge tensorboardx
+ResDict:
+```
+smiles: str
+name: str
+logp: float
+logd: float
 ```
 
-
-Original article proposed to train autoencoder architecture for reconstruction task, here we use only encoder part in regression task.
-
-#### Data
-
-To run with prepared data:
-
-Download pickle-file [SMILES_TO_MOLTREE.pickle](https://drive.google.com/file/d/15e8Tq0xKwIVUpizKmn-o3xznq0iBunvp/view?usp=sharing) from gdrive and place it to `data/raw/baselines/jtree/` directory.
-
-NB!
-
-JTree Vocabulary can lead to exceptions in case of unknown substructures. To skip such molecules run [2_encode_molecules.ipynb](notebooks/models_postprocessing/jtree/2_encode_molecules.ipynb) with appropriate data. It will save nesessary files in ```data/raw/baselines/jtree/train_errs.txt(val_errs.txt, test_errs.txt)```. 
- 
-
-#### Training
-
-Running with best parameters:
-
-```cd ./scripts/SOTA/jtree/; python train_encoder_more_atom_feats_CV.py --filename "exp" --epochs 200 --patience 35 --vocab_path '../../../data/raw/baselines/jtree/vocab.txt' --file_prefix logp_wo_logp_json_wo_averaging```
-
-### Morgan Fingerprints
-
-[Jupyter Notebooks with model and analysis of predictions](notebooks/models_postprocessing/count_morgan_fingerprint)

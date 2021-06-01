@@ -38,7 +38,6 @@ def predict(model: MoleculeModel,
         if args.additional_encoder:
             substructure_mol_batch = batch.batch_graph(model_type='substructures', args = args)
         mol_batch, features_batch = batch.batch_graph(args = args), batch.features()
-
         # Make predictions
         with torch.no_grad():
             if args.additional_encoder:        

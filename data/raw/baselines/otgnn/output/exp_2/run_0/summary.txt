@@ -1,5 +1,0 @@
-mse: 0.249
-loss: 0.249
-prediction_mean: 2.068
-prediction_std: 1.830
-rmse: 0.499

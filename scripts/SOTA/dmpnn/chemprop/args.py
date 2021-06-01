@@ -8,7 +8,14 @@ from typing_extensions import Literal
 import torch
 from tap import Tap  # pip install typed-argument-parser (https://github.com/swansonk14/typed-argument-parser)
 
-from chemprop.features import get_available_features_generators
+
+import os,sys,inspect
+currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parentdir = os.path.dirname(currentdir)
+sys.path.insert(0,parentdir)
+
+from features import get_available_features_generators
+
 
 
 def get_checkpoint_paths(checkpoint_path: Optional[str] = None,
@@ -45,7 +52,6 @@ def get_checkpoint_paths(checkpoint_path: Optional[str] = None,
             for fname in files:
                 if fname.endswith(ext):
                     checkpoint_paths.append(os.path.join(root, fname))
-
         if len(checkpoint_paths) == 0:
             raise ValueError(f'Failed to find any checkpoints with extension "{ext}" in directory "{checkpoint_dir}"')
 
@@ -419,10 +425,11 @@ class TrainArgs(CommonArgs):
 
 class PredictArgs(CommonArgs):
     """:class:`PredictArgs` includes :class:`CommonArgs` along with additional arguments used for predicting with a Chemprop model."""
-
+    additional_encoder: bool = False
+    """Add our encoder to model"""
     test_path: str
     """Path to CSV file containing testing data for which predictions will be made."""
-    preds_path: str
+    preds_path: str = None
     """Path to CSV file where predictions will be saved."""
 
     @property
