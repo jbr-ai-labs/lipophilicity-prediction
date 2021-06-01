@@ -53,16 +53,6 @@ If you wish to cite this code, please do it as follows:
 
 *Machine Learning for Molecules Workshop @ NeurIPS 2020*
 
-<!-- TABLE OF CONTENTS -->
-## Table of Contents
-
-* [Structure of this repository](#structure-of-this-repository)
-* [StructGNN](#structgnn)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-  * [Training](#training)
-
-
 
 This repository was built with the help of
 * [DMPNN original repo](https://github.com/chemprop/chemprop)
@@ -72,19 +62,12 @@ This repository was built with the help of
 
 To get a local copy up and running follow these simple steps.
 
-### Prerequisites
-
-To use `chemprop` with GPUs, you will need:
- * cuda >= 8.0
- * cuDNN
-
 
 ### Installation
 
 1. `git clone https://github.com/jbr-ai-labs/lipophilicity-prediction.git`
 2. `git checkout -b docker_evaluation`
 3. `docker build -t lipophilicity-prediction .`
-4. `docker run lipophilicity-prediction`
 
 
 
