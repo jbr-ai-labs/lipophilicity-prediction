@@ -66,7 +66,7 @@ To get a local copy up and running follow these simple steps.
 ### Installation
 
 1. `git clone https://github.com/jbr-ai-labs/lipophilicity-prediction.git`
-2. `git checkout -b docker_evaluation`
+2. `git checkout docker_evaluation`
 3. `docker build -t lipophilicity-prediction .`
 
 
