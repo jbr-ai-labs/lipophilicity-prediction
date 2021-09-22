@@ -133,6 +133,7 @@ def load_scalers(path: str) -> Tuple[StandardScaler, StandardScaler]:
     :return: A tuple with the data :class:`~chemprop.data.scaler.StandardScaler`
              and features :class:`~chemprop.data.scaler.StandardScaler`.
     """
+
     state = torch.load(path, map_location=lambda storage, loc: storage)
 
     scaler = StandardScaler(state['data_scaler']['means'],
