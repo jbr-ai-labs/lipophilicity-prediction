@@ -1,0 +1,8 @@
+stages:
+  - build
+
+include:
+  - project: 'biocad/bcd-ci-common'
+    ref: master
+    file: '/build/docker-build.yaml'
+  - local: 'iac/ci/build.yaml'

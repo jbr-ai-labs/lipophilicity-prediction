@@ -1,0 +1,13 @@
+tags:
+  extends: .docker-build
+  only:
+    - tags
+
+build_branch:
+  extends: .docker-build
+  variables:
+    CI_COMMIT_TAG: latest
+  only:
+    - branches
+  except:
+    - master
